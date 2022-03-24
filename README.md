@@ -12,6 +12,7 @@ This project have been designed and developped by : `Yo`
 # Global description
 This project is a chat bot created for the website of EFREI. The main goal of this chat bot is to help the user to find what we want in an easier way. This project is part of a school project.
 
+For this project, we used Python, HTML, CSS. We also used [Flask](https://flask.palletsprojects.com/en/2.0.x/) for the front-end and [NLTK](https://www.nltk.org/) for parsing.
 
 # Prerequisite
 
@@ -26,7 +27,7 @@ $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 
-You will also need to install theses dependecies
+You will also need to install dependecies
 
 ```
 pip install flask
