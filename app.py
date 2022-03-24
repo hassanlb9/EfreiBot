@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import nltk
-from  chat  import get_response
+import create_response
+import fact_responses
+from  bot  import respond
 
 nltk.download('vader_lexicon')
 app = Flask(__name__)
@@ -10,9 +12,9 @@ def index_get():
     return render_template('base.html')
 
 @app.post("/predict")
-def predict():
+def predict():   
     text = request.get_json().get("message")
-    response = get_response(text)
+    response = respond(text)
     message = {"answer": response}
     return jsonify(message)
 
