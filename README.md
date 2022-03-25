@@ -1,5 +1,5 @@
 # EFREIBOT
-This project have been designed and developped by : `Yo`
+This project have been designed and developped by : `Yo`.
   
 # Summary
 
@@ -22,7 +22,7 @@ Then you can clone this repo and create a virtual environment by writing these c
 
 ```
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
+$ cd EfreiBot-main
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
