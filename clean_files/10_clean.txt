@@ -1,6 +1,0 @@
-this domain is successfully pointed at wp engine, but is not configured for an account on our platform.
-if you just signed up, we're still likely creating your account.
-did you add this domain to your install?
-did you point dns to the correct ip address or cname?
-if you've completed the steps above, or need more help, please contact us and we can help get your site up and running in no time.
-hosted by
