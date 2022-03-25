@@ -27,7 +27,7 @@ $ python -m venv venv
 $ venv\Scripts\activate
 ```
 
-Vous aurez aussi besoin d'installer ces dépendances
+Vous aurez aussi besoin d'installer ces dépendances.
 
 ```
 pip install -r requirements.txt
