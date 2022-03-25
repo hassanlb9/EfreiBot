@@ -24,13 +24,14 @@ Ensuite vous pourrez clone ce repo et écrire ces commandes dans votre invité d
 
 ```
 $ python -m venv venv
-$ . venv/Scripts/activate
+$ venv\Scripts\activate
 ```
 
 Vous aurez aussi besoin d'installer ces dépendances
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
+pip install textblob
 ```
 
 # Comment lancer l'application
