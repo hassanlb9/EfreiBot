@@ -1,0 +1,58 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  La majeure Systèmes robotiques et Drones forme des ingénieurs capables d’étudier et de concevoir des systèmes autonomes avec une intelligence embarquée : des automates pouvant se mouvoir au sol et permettant d’apporter une aide à l’humain sous différentes formes ainsi que la conception d’objets volants.  Cette majeure forme des ingénieurs capables de concevoir des robots interactifs et des drones, plus particulièrement, nous mettons l’accent sur les aspects intelligence embarquée temps réel en réponse à des environnements dynamiques. Cette formation pluridisciplinaire allie l’électronique (dans ses aspects matériels et logiciels), la robotique, le traitement du signal (image/parole).  Ces systèmes sont destinés aux équipements tant de grande consommation qu’industriels, et trouvent leurs applications dans des domaines tels que le secteur de la e-santé (notamment l’aide à la personne), la sécurité, la surveillance de sites civils et militaires, la défense, le transport, le commerce, etc.  Programme complètement orienté autonomie/ intelligence des drones et systèmes robotiques  Responsable de la Majeure : Laurie Conteville,
+Docteur en physique    Communications numériques et protection des données
+Digital Signal Processing and Processor
+Systèmes temps-réel
+Co-design logiciel matériel  Robotique mobile avancée
+Contrôle commande
+Vision robotique et analyse
+AI & ROS
+Introduction à la robotique  Stage technique de début novembre à fin mars  Estimation et décision  Communications numériques et protection des données
+Digital Signal Processing and Processor
+Systèmes temps-réel
+Co-design logiciel matériel  Robotique mobile avancée
+Contrôle commande
+Vision robotique et analyse
+AI & ROS
+Introduction à la robotique  Estimation et décision  Stage technique de début novembre à fin mars  Artificial Intelligence, Deep Learning and Applications
+Blockchain: Challenges and Opportunities
+Big Data for Companies
+Créativité et entreprenariat
+Design et conception
+Internet of Things
+Innovation santé
+Management de la sécurité
+Web et 3D
+Architecture RF et CEM
+Systèmes RF et sécurité des transmissions  IA et ROS
+IA for robotics
+Navigation autonome et commande de flottes
+Reconnaissance vision et parole
+Prototypage Systèmes RF et sécurité des transmissions  Stage Ingénieur de début avril à fin septembre  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques  Artificial Intelligence, Deep Learning and Applications
+Blockchain: Challenges and Opportunities
+Big Data for Companies
+Créativité et entreprenariat
+Design et conception
+Internet of Things
+Innovation santé
+Management de la sécurité
+Web et 3D
+Architecture RF et CEM
+Systèmes RF et sécurité des transmissions  IA et ROS
+IA for robotics
+Navigation autonome et commande de flottes
+Reconnaissance vision et parole
+Prototypage Systèmes RF et sécurité des transmissions  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques  Stage Ingénieur de début avril à fin septembre  PÉDAGOGIE PAR PROJETS  En M1 et M2, les élèves-ingénieurs effectuent deux projets transverses qui font appel à de nombreuses compétences : techniques, gestion de projet, gestion d'équipe, montage d'un business plan, compétences de communication pour défendre son projet...  OUVERTURE À L'INTERNATIONAL  En plus du semestre de mobilité académique en L3, les élèves effectuent une autre expérience à l'international durant leur cursus.  DOUBLES-DIPLÔMES POSSIBLES  Les élèves ont la possibilité d'effectuer un double-diplôme en France ou à l'international en fonction de leurs projet et ambition professionnels.  EXPÉRIENCE ASSOCIATIVE  L'investissement associatif fait partie du projet pédagogique de l'école. En effet, il leur permet de mettre en pratique et de développer un grand nombre de compétences nécessaires à l'ingénieur.  PROXIMITÉ AVEC LES ENTREPRISES  Efrei entretient des liens étroits avec les entreprises qui lui permettent de proposer une formation en phase avec les attentes du marché.  ENTREPRENEURIAT  L'école propose un ensemble de dispositifs pour accompagner les élèves à créer leur start-up.  Exemples de métiers possibles :  Autre Majeure de la filière  Contact Admissions :  Suivez nous : 

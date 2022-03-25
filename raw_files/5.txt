@@ -1,0 +1,57 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  Cette formation t'intéresse ?  Ouverte aux élèves issus de terminales Générale (Spécialité Mathématiques + une spécialité scientifique), la prépa intégrée Section Internationale propose le même programme que la prépa intégrée scientifique avec les cours de sciences, techniques et de management 100% en anglais.  Un parcours spécialement conçu pour acquérir une grande aisance en anglais et s’ouvrir à l’international.    Ce cursus s’inscrit dans la dynamique globale fortement ouverte sur l’international. Les étudiants de la section internationale ont ainsi la possibilité de suivre un parcours intégralement anglophone sur 5 ans, de leur 1re année de prépa intégrée (L1) jusqu’à leur dernière année de cycle ingénieur (M2), avec une mobilité à l’international possible en 3e ou 5e année.  Le niveau d’anglais des candidats à cette section est évalué en fonction de leurs notes d’anglais de terminale et des résultats d’un examen blanc de TOEIC proposé aux étudiants lors de leur rentrée.  Fondamentaux de l’algorithmique
+Techniques de programmation  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  Stage de découverte  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Fondamentaux de l’algorithmique
+Techniques de programmation  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Stage de découverte  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Stage commercial  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Stage commercial  OUVERTURE À L’INTERNATIONAL  Tremplin pour une carrière ouverte sur le monde  POLITIQUE DE RÉUSSITE DES ÉTUDIANTS    APPROCHE PROFESSIONNELLE GRÂCE AUX STAGES    ENSEIGNEMENT DE QUALITÉ  100% des enseignements scientifiques, techniques et de management en anglais Formidable opportunité de renforcer son niveau en anglais et de devenir bilingue  VÉRITABLE ATOUT POUR SON CV  Filière plébiscitée par les entreprises  POURSUITE D'ÉTUDES  Possibilité de suivre un parcours sur 5 ans entièrement en anglais (L1 à M2) Accès aux Majeures 100% anglophones en Cycle Master Mobilité à l'international possible en 3e et 5e année  La section internationale m’a permis d’apprendre des termes techniques en anglais, dans un domaine où parler exclusivement français peut être une barrière pour la communication. J’ai eu l’occasion de travailler avec des équipes internationales au cours de mon cursus. Avoir suivi des cours en anglais m’a beaucoup aidé à utiliser les termes techniques en environnement professionnel. J’ai choisi une prépa intégrée car les cours dispensés sont au plus près des besoins des équipes internationales. Je pourrai ainsi travailler à l’étranger sans aucun souci.  Timothé, Promo 2024, prépa intégrée Section Internationale  Contact Admissions :  Suivez nous : 

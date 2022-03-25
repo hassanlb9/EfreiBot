@@ -1,0 +1,61 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  Cette formation t'intéresse ?  Ouverte aux élèves issus de Terminales Générales (Spécialité SES + Spécialité Mathématiques) et STI2D, la prépa intégrée renforcée a été conçue en vue d’harmoniser le niveau des connaissances en maths et physique avec celui des étudiants issus de Terminales Générales (Spécialité Mathématiques + une spécialité scientifique)    Un certain nombre d’élèves issus de Terminales Générales (Spécialité SES + Spécialités Mathématiques) rencontrent de grandes difficultés pour intégrer une école d’ingénieur du fait de leur programme de mathématiques, en première et en terminale. De plus, l’enseignement de la physique est inexistant.  Quant aux élèves issus de la série STI2D, leur programme de mathématiques et de physique n’est pas suffisamment approfondi pour pouvoir assimiler sereinement les notions du programme d’une école d’ingénieur.  Après 8 ans d’expertise et des étudiants diplômés issus de ce cycle préparatoire, l’Efrei représente un gage de confiance et de réussite.  Fondamentaux de l’algorithmique
+Techniques de programmation  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  Le stage a pour objectif de permettre aux élèves de se familiariser avec l’entreprise et de se familiariser avec un environnement professionnel.  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Fondamentaux de l’algorithmique
+Techniques de programmation  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Le stage a pour objectif de permettre aux élèves de se familiariser avec l’entreprise et de se familiariser avec un environnement professionnel.  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Le stage commercial a pour objectif de découvrir les processus de vente mais aussi d’améliorer leur force de conviction.  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Le stage commercial a pour objectif de découvrir les processus de vente mais aussi d’améliorer leur force de conviction.  Renforcement en mathématiques et physique à raison de 2 semaines de cours dispensés avant la rentrée en 1ère année et 6 heures de cours supplémentaires hebdomadaires sur les 2 années du cycle préparatoire.  POSSIBILITÉ D'INTÉGRER UNE ÉCOLE D'INGÉNIEURS  après une Terminale Générale (Spécialité SES + Spécialités Mathématiques) ou STi2D  LES ENSEIGNANTS  experts et adaptés aux besoins de cette prépa  POURSUITE D'ÉTUDES  en 1re année de cycle ingénieur classique (L3) et accès aux 13 majeures  Les élèves du cycle préparatoire renforcé suivent les mêmes cours que les autres élèves-ingénieurs de l’école pour les cours techniques (électronique et informatique) et les cours de formation générale.
+
+En revanche, ils ont des cours différenciés et renforcés en mathématiques et physique à raison de 2 semaines de cours dispensés avant la rentrée en 1ère année et 6 heures de cours supplémentaires hebdomadaires sur les 2 années du cycle préparatoire.
+
+A la fin de ces deux années, les résultats des élèves du cycle préparatoire renforcé – comme pour tous les élèves-ingénieurs de l’Efrei – seront soumis à un jury de passage pour intégrer la L3.  Contact Admissions :  Suivez nous : 

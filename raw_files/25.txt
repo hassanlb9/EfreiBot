@@ -1,0 +1,160 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  Cette formation t'intéresse ?  En partenariat avec le CFA-Afia, le Cycle Ingénieur en apprentissage d’Efrei offre une formation à la fois scientifique, technique et générale de haut niveau.   La formation s’adresse principalement aux jeunes technologues issus des IUT (Informatique, Réseaux-télécoms) et se déroule sur 3 ans. Les enseignements des deux premières années du parcours sont spécifiques aux apprentis et conçues de manière à consolider les compétences nécessaires à leur poursuite d’études en dernière année (semestre 9)  Efrei propose depuis 2010 un cycle Ingénieur par apprentissage qui donne accès, pour les apprentis qui suivent avec succès les 3 années de formation du Cycle Ingénieur, au diplôme d’ingénieur Efrei, habilité par la Cti – Commission des titres d’ingénieur.  En partenariat avec le CFA-Afia, la formation répond aux attentes des milieux professionnels : recherche de jeunes engagés dans des projets professionnels d’envergure et bénéficiant d’un enseignement de haut niveau délivré par des organismes de formation reconnus. In fine, la formation permet aux entreprises de recruter des ingénieurs dotés de compétences solides dans tous les domaines du numérique et d’une bonne connaissance des réalités de l’entreprise du fait de leur formation professionnelle.  Grâce au dispositif de l’alternance, la formation permet aux étudiants de développer un comportement mûri et une plus grande autonomie indispensable à leur bonne insertion dans la vie active.  Les apprentis du parcours LOGICIELS ET SYSTÈMES D’INFORMATION, peuvent choisir l’une des 4 majeures suivantes en dernière année (semestre 9) :  Structures de données
+Théorie des graphes
+Langages et compilation
+Systèmes d’exploitation
+Bases de données  Architecture des ordinateurs
+Communications numériques
+Introduction aux systèmes d’information
+Réseaux et protocoles  Mathématiques pour l’informatique
+Théorie du signal
+Aide à la décision
+Analyse de données
+Optimisation et complexité  Anglais
+Gestion de projet
+Argumenter et convaincre
+Risque au travail : enjeux et prévention
+TOEIC blanc  Programmation en C et C++
+Programmation en Java
+Programmation orientée objet et UML
+Développement Web  Rapport d’activités
+Mission d’apprentissage
+Évaluation entreprise  Structures de données
+Théorie des graphes
+Langages et compilation
+Systèmes d’exploitation
+Bases de données  Mathématiques pour l’informatique
+Théorie du signal
+Aide à la décision
+Analyse de données
+Optimisation et complexité  Programmation en C et C++
+Programmation en Java
+Programmation orientée objet et UML
+Développement Web  Architecture des ordinateurs
+Communications numériques
+Introduction aux systèmes d’information
+Réseaux et protocoles  Anglais
+Gestion de projet
+Argumenter et convaincre
+Risque au travail : enjeux et prévention
+TOEIC blanc  Rapport d’activités
+Mission d’apprentissage
+Évaluation entreprise  Sécurité informatique
+Modélisation des Systèmes d’information
+Bases de données réparties
+Architecture des systèmes informatiques
+Machine Learning  Devops : approche et principes
+Pipeline et livraison continue  Architecture des réseaux et contrôle de flux
+Systèmes temps réel
+Administration des systèmes informatiques
+Sécurité réseaux
+Cryptographie
+Multimédia sur IP  Prise de la parole
+Méthodologie de développement
+Anglais
+TOEIC
+Droit de la société de l’information
+Enterprise Resource Planning (ERP)  Environnement DOTNET et C#
+Environnement JEE
+Programmation fonctionnelle (Scala)
+Structurer les données avec XML et JSON
+Développement Mobile  Mission d’apprentissage
+Évaluation entreprise  Sécurité informatique
+Modélisation des Systèmes d’information
+Bases de données réparties
+Architecture des systèmes informatiques
+Machine Learning  Architecture des réseaux et contrôle de flux
+Systèmes temps réel
+Administration des systèmes informatiques
+Sécurité réseaux
+Cryptographie
+Multimédia sur IP  Environnement DOTNET et C#
+Environnement JEE
+Programmation fonctionnelle (Scala)
+Structurer les données avec XML et JSON
+Développement Mobile  Devops : approche et principes
+Pipeline et livraison continue  Prise de la parole
+Méthodologie de développement
+Anglais
+TOEIC
+Droit de la société de l’information
+Enterprise Resource Planning (ERP)  Mission d’apprentissage
+Évaluation entreprise  Datawarehouse
+Outils collaboratifs  Évaluation entreprise
+Rapport d’activité
+Mission d’apprentissage
+Réalisations et projets  Event-driven Asynchronous Programming
+Software Engineering for the Cloud
+Secure Coding
+Software reliability and quality
+Testing  TOEIC Training (facultatif)
+Développement durable
+Responsabilité sociale de l’entreprise
+Culture et communication (modules éléctifs)
+Séminaires « Le monde globalisé » (éléctifs)
+Séminaires « E-novation » (éléctifs)
+Séminaires « Formation humaine » (éléctifs)  Business Process Management
+Architecture and IS Governance
+Information System Security
+Cloud Computing : SaaS, PaaS et LaaS
+Form Distributed Computing to Cloud Computing  Advanced learning and predictive analytics
+Deep learning for AI
+Advanced Big Data systems
+Applications of Big Data
+Data management  Artificial Intelligence, Deep Learning and Applications
+Blockchain: Challenges and Opportunities
+Business Process Management
+Design Thinking
+Éthique de l’ingénieur du numérique
+Introduction to HPC / GPU computing
+Internet of Things
+Knowledge Based Company
+Management de la sécurité
+Network Softwarization: Technologies and Enablers
+Quantum Technologies
+Systèmes critiques, fiabilité des systèmes
+Web et 3D  Big Data Analytics
+Data Mining
+Advanced Machine Learning
+Artificial Intelligence for Knowledge Discovery
+Big Data Processing and Visualization: Tools and Platforms  Datawarehouse
+Outils collaboratifs  TOEIC Training (facultatif)
+Développement durable
+Responsabilité sociale de l’entreprise
+Culture et communication (modules éléctifs)
+Séminaires « Le monde globalisé » (éléctifs)
+Séminaires « E-novation » (éléctifs)
+Séminaires « Formation humaine » (éléctifs)  Artificial Intelligence, Deep Learning and Applications
+Blockchain: Challenges and Opportunities
+Business Process Management
+Design Thinking
+Éthique de l’ingénieur du numérique
+Introduction to HPC / GPU computing
+Internet of Things
+Knowledge Based Company
+Management de la sécurité
+Network Softwarization: Technologies and Enablers
+Quantum Technologies
+Systèmes critiques, fiabilité des systèmes
+Web et 3D  Évaluation entreprise
+Rapport d’activité
+Mission d’apprentissage
+Réalisations et projets  Business Process Management
+Architecture and IS Governance
+Information System Security
+Cloud Computing : SaaS, PaaS et LaaS
+Form Distributed Computing to Cloud Computing  Big Data Analytics
+Data Mining
+Advanced Machine Learning
+Artificial Intelligence for Knowledge Discovery
+Big Data Processing and Visualization: Tools and Platforms  Event-driven Asynchronous Programming
+Software Engineering for the Cloud
+Secure Coding
+Software reliability and quality
+Testing  Advanced learning and predictive analytics
+Deep learning for AI
+Advanced Big Data systems
+Applications of Big Data
+Data management  Ouverture des options  RÉSEAUX D'ENTREPRISES  Rencontre avec près de 100 employeurs en participant au "Talent Day" du mois de novembre  EXPÉRIENCE À L'INTERNATIONAL  3 mois de mission professionnelle à l'étranger  APPRENTISSAGE DE L'AUTONOMIE    L'ESPRIT D'ÉQUIPE    APPRENTISSAGE DES SOFTSKILLS    DIPLÔME  Diplôme d'ingénieurs CTI Efrei en fin de cursus  Former un ingénieur en apprentissage au sein des ses équipes présente plusieurs intérêts pour une entreprise. Après un suivi sur 3 ans, elle est en mesure d’évaluer les compétences scientifiques, technologiques mais aussi humaines de l’apprenti ingénieur en vue de le recruter.  En outre, l’ingénieur recruté est directement opérationnel et efficace puisqu’il a été formé aux outils et méthodes utilisés par l’entreprise et qu’il connait parfaitement son environnement et les collaborateurs avec lesquels il doit interagir.  Exemples fréquents de missions d’apprentissage :  Pour faciliter la recherche de mission en entreprise, Efrei en collaboration avec le CFA-Afia organise des ateliers CV et lettres de motivation ainsi que des simulations d’entretien de recrutement. En juin, se tient un speed meeting afin de mettre en relation des apprentis et ses entreprises partenaires.  L’école dispose d’un réseau d’entreprises partenaires qui recrutent chaque année des élèves-ingénieurs en apprentissage:
+CGI, SILCA, ATOS, BNP Paribas Securities Services et BNP Paribas Partners for Innovation, Société Générale, RTE, Orange, Essilor, Veolia Water Technologies, EDF, IT-CE, Euriware, Steria, ICDC, SFR, CA CONSUMER FINANCE, CEA…  Le Portail national de l’Alternance, créé par le Ministère de l’Economie, de l’Industrie et de l’Emploi vous permettra d’accéder à toutes les offres d’emploi en contrat d’apprentissage de ses partenaires Pôle emploi, l’ACFCI, l’APCM, le MEDEF, la CGPME, l’UPA, et Centre INFFO sur un site internet unique.  Contact Admissions :  Suivez nous : 

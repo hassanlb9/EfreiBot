@@ -1,0 +1,21 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  En partenariat avec le Cnam, la majeure Bio Informatique  se situe au carrefour de l’informatique, les statistiques (Big Data), de la biologie et de la médecine. Elle est accessible après la prépa intégrée Bio et numérique ou un premier double cursus en biologie et informatique.  La Bio-Informatique s’est beaucoup développée ces dernières années pour répondre au besoin de traitement des données issues des nouvelles biotechnologies (données multiomics). Avec la diversité de ces technologies et la massification des données à traiter, elle est devenue une discipline à part entière, au carrefour de l’informatique, des statistiques (Big Data), de la Biologie et de la médecine.  Sur le plan industriel, le secteur va continuer de croître fortement pour répondre aux progrès de santé (médecine personnalisée au niveau diagnostic et thérapeutique) et va nécessiter l’arrivée de nouveaux experts qui comprennent les données, outils et enjeux actuels de la bio-informatique et qui sont capables de développer de nouveaux logiciels adaptés aux progrès technologiques en bio-médecine et en informatique.  De grandes sociétés comme Google, Illumina, IQVIA ou IBM Watson se positionnent déjà sur ce secteur car il s’agit d’un enjeu majeur.  Une pédagogie active basée sur de nombreux projets au cœur de la recherche et des problématiques actuelles  Responsable de Majeure : Mano Joseph Mathew, Docteur en Bio-Informatique    Algorithmique de la Bio-informatique
+Biostatistiques
+Protéomique et métabolomique
+Bio-informatique structurale et drug design
+Outils mathématiques et informatiques pour la génomique  Stage technique de début novembre à fin mars  Algorithmique de la Bio-informatique
+Biostatistiques
+Protéomique et métabolomique
+Bio-informatique structurale et drug design
+Outils mathématiques et informatiques pour la génomique  Stage technique de début novembre à fin mars  Objets connectés pour la santé
+NGS Next Génération Sequencing
+Programmation Java
+Immunologie
+Ethique et législation
+Biologie quantique  Stage Ingénieur de début avril à fin septembre  Objets connectés pour la santé
+NGS Next Génération Sequencing
+Programmation Java
+Immunologie
+Ethique et législation
+Biologie quantique  Stage Ingénieur de début avril à fin septembre  Formation en alternance possible  ACCÈS AU LABORATOIRE GBA  Le Laboratoire GBA du CNAM comprend une douzaine de chercheurs dont le but commun est la découverte de nouveaux médicaments.  DOUBLE-EXPERTISE  Efrei, technologies du numérique, et le CNAM, bio-informatique.  PÉDAGOGIE PAR PROJETS  Les élèves effectuent de nombreux projets tout au long du cursus. Ses projets peuvent être réalisés dans le cadre de partenariat avec des acteurs de la Santé.  ENTREPRENEURIAT  Parcours tremplin Start-up Santé : accompagnement et coaching de votre start-up santé.  APPRENTISSAGE DES SOFTSKILLS  En plus de l'enseignement scientifique et technique, apprentissage des compétences humaines nécessaires pour le travail en équipe, le management...  ENGAGEMENT ASSOCIATIF  Les étudiants ont la possibilité de développer de nombreuses compétences via la prise de responsabilité au sein d'associations.  Exemples de métiers possibles :  Le double-diplôme d’ingénieur Efrei – EBI (Ecole de Biologie Industrielle) est principalement ouvert aux élèves-ingénieurs de M1 (2e année du cycle ingénieur) en Majeure Bio-Informatique qui ont préalablement suivi la prépa et la 1re année du cycle ingénieur Biologie et Numérique à Efrei.  Suite à leur M1 en Majeure Bio-Informatique, les étudiants peuvent postuler pour le double-diplôme avec l’EBI. Ils y effectuent 2 ans : une 2e et 3e année de cycle ingénieur (M1 et M2) et ont la possibilité de choisir parmi l’une des 3 majeures suivantes :  Autres majeures de la filière  Contact Admissions :  Suivez nous : 

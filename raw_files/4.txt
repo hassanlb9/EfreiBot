@@ -1,0 +1,57 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  Cette formation t'intéresse ?  Ouverte aux élèves issus de Terminales Générales (Spécialité Mathématiques + une spécialité scientifique), la prépa intégrée classique scientifique d’Efrei s’apparente aux classes préparatoires classiques tant par ses contenus pédagogiques que par ses exigences.  Cependant, le programme scientifique repose sur 1/3 d’enseignements en informatique et technologies du numérique dès la première année et la pédagogie s’appuie sur de nombreux projets intra et interdisciplinaires.  Nouveau : La Prépa peut se faire à Paris et également à Bordeaux !    La formation de l’ingénieur ne saurait se limiter à la formation scientifique et technique. En effet, l’ingénieur est aussi naturellement destiné aux hautes responsabilités dans l’entreprise en France comme à l’international, lesquelles impliquent nécessairement des qualités humaines et des compétences managériales.  C’est pourquoi un 1/3 de la formation est réservé à la Formation Humaine et à l’international (langues, culture et communication, développement personnel, éthique et responsabilités, immersion à l’international) ainsi qu’à la connaissance de l’entreprise.  Depuis 2020, les étudiants ont la possibilité d’intégrer le cycle prépa scientifique (L1 et L2) à Bordeaux à l’issue de ces deux années, ils intègrent le cycle ingénieur (L3, M1, M2) sur le campus de Villejuif.  Situé 10, rue des Terres Neuves à Bègles, accessible très facilement depuis la gare Bordeaux Saint-Jean ; le campus Efrei de Bordeaux permet aux étudiants de bénéficier d’un environnement favorable à la pédagogie et à l’enseignement.  Fondamentaux de l’algorithmique
+Techniques de programmation  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  Stage de découverte de l’entreprise de 1 à 2 mois à effectuer entre juillet et août  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Fondamentaux de l’algorithmique
+Techniques de programmation  Fonctions et variations
+Nombre et structures
+Algèbre linéaire
+Sommes finies et infinies  De l’atome à la puce
+L’électricité générale
+L’information numérique
+L’information : la voix et l’image
+La mécanique
+Du système à la fonction  Économie et entreprise
+Structurer un écrit, prendre la parole
+Argumentation, écriture créative
+Anglais, Langue vivante 2  Stage de découverte de l’entreprise de 1 à 2 mois à effectuer entre juillet et août  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Stage commercial de 1 mois minimum à effectuer entre décembre et janvier  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Programmation en langage C++
+Programmation web
+Projet transverse
+Structures de données  Mathématiques pour l’informatique
+Analyse de données
+Mathématiques du réel
+Probabilités et statistiques  Propagation électromagnétique
+Thermodynamique
+Systèmes numériques
+Champs électromagnétiques
+Physique quantique
+Systèmes de transmission  Organisation et processus
+Les comptes de l’entreprise
+Argumentation, critique d’un essai
+Argumentation et rhétorique
+Anglais, langue vivante 2  Stage commercial de 1 mois minimum à effectuer entre décembre et janvier  Le stage a pour objectif de permettre aux élèves de se familiariser avec l’entreprise et de se familiariser avec un environnement professionnel.  Le stage commercial plonge les étudiants dans l’univers de la vente et les confronte aux clients. Ce stage a pour objectif de découvrir les processus de vente mais aussi d’améliorer leur force de conviction.  Le stage a pour objectif de permettre aux élèves de se familiariser avec l’entreprise et de se familiariser avec un environnement professionnel.  Le stage commercial plonge les étudiants dans l’univers de la vente et les confronte aux clients. Ce stage a pour objectif de découvrir les processus de vente mais aussi d’améliorer leur force de conviction.  Lors des deux premières années en prépa intégrée, les étudiants bénéficient d’un emploi du temps adapté qui a la spécificité de regrouper les cours afin de ne pas laisser de plages horaires vides. Ainsi les élèves ont cours soit de 8h à 14h, soit de 14h à 20h. Cet aménagement des horaires offre l’avantage d’optimiser leur temps de travail personnel ou en groupe.  PÉDAGOGIE PAR PROJETS  Pédagogie basée sur les projets qui permet de mettre en pratique les concepts étudiés en cours. Cours interactifs (par exemple Sondages Mentimeter)  FORMATION GÉNÉRALE DE L'INGÉNIEUR  Importance accordée à la formation générale de l'ingénieur afin de développer des softskills (compétences humaines) nécessaires et recherchés par les entreprises.  PARTENARIATS AVEC DES UNIVERSITÉS À L'INTERNATIONAL  Partenariats avec des universités à l'international pour des échanges et/ou des doubles diplômes.  FORMATION PROFESSIONNELLE  Les étudiants effectuent un stage en 1re et 2e année qui leur permet d'appréhender peu à peu les exigences du milieu professionnel.  EXPÉRIENCE ASSOCIATIVE  Les étudiants peuvent profiter d'une vie associative qui leur permet également de mettre en pratique de nombreuses compétences.  PLANNING EN QUINCONCE  Planning alterné en prépa intégrée : les cours sont regroupés soit le matin soit l'après-midi afin d'optimiser le temps de travail personnel ou en groupe.  Contact Admissions :  Suivez nous : 

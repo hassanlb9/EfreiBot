@@ -1,0 +1,39 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  La cybersécurité consiste à évaluer et se défendre des risques entrants et sortants d’un système informatique en considérant toutes ses briques softwares et hardwares technologiques. Certes, une solution informatique est utilisée pour améliorer ou fournir de nouveaux services, mais elle donne par la même occasion aux agresseurs potentiels, animés de motivations diverses, de nouvelles possibilités pour accéder, consulter, modifier ou endommager les informations sensibles. Dans le cadre de cette majeure en cybersécurité, les élèves ingénieurs acquerront une expertise et spécialisation en Cybersécurité SI & Gouvernance (CSIG).  L’ingénieur en CSIG saura :  Projets sécurité et certifications possibles  Responsable de Majeure : Max Agueh, Responsable du pôle SRSE    Architecture Sécurisée ISO 27005
+Classification des données
+Gestion des Identités
+Sécurité Système d’information
+Sécurité Système d’exploitation
+Sécurité Réseaux Virtualization
+Storage Cryptographie : mécanismes et outils  Stage technique de début novembre à fin mars  Architecture Sécurisée ISO 27005
+Classification des données
+Gestion des Identités
+Sécurité Système d’information
+Sécurité Système d’exploitation
+Sécurité Réseaux Virtualization
+Storage Cryptographie : mécanismes et outils  Stage technique de début novembre à fin mars  Sécurité Cloud ISO 27001/27003
+Gestion des Risques & PCA
+Cybercriminalité Cyberguerre
+Lois et réglementation
+Virus et technique virales
+EDR (Endpoint Detection & Response)  Stage Ingénieur de début avril à fin septembre  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques
+Enterprise Resource Planning  Sécurité Cloud ISO 27001/27003
+Gestion des Risques & PCA
+Cybercriminalité Cyberguerre
+Lois et réglementation
+Virus et technique virales
+EDR (Endpoint Detection & Response)  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques
+Enterprise Resource Planning  Stage Ingénieur de début avril à fin septembre  PÉDAGOGIE PAR PROJETS  En M1 et M2, les élèves-ingénieurs effectuent deux projets transverses qui font appel à de nombreuses compétences : techniques, gestion de projet, gestion d'équipe, montage d'un business plan, compétences de communication pour défendre son projet...  OUVERTURE À L'INTERNATIONAL  En plus du semestre de mobilité académique en L3, les élèves effectuent une autre expérience à l'international durant leur cursus.  32 DOUBLES-DIPLÔMES POSSIBLES  Les élèves ont la possibilité d'effectuer un double-diplôme en France ou à l'international en fonction de leurs projet et ambition professionnels.  EXPÉRIENCE ASSOCIATIVE  L'investissement associatif fait partie du projet pédagogique de l'école. En effet, il leur permet de mettre en pratique et de développer un grand nombre de compétences nécessaires à l'ingénieur.  PROXIMITÉ AVEC LES ENTREPRISES  Efrei entretient des liens étroits avec les entreprises qui lui permettent de proposer une formation en phase avec les attentes du marché.  ENTREPRENEURIAT  L'école propose un ensemble de dispositifs pour accompagner les élèves à créer leur start-up.  Exemples de métiers possibles :  J’ai choisi la majeure Cybersécurité, une spécialité très technique où les femmes ne sont pas très nombreuses mais très recherchées pour leur vision transversale. En plus de cette spécialisation, j’ai intégré, Grenoble École de Management (partenaire Efrei) en Master of Science Innovation afin d’acquérir une expertise en management qui me facilitera l’accès à des postes d’encadrement. Cette double compétence, Informatique et Management, me permettra de concrétiser mon projet professionnel : travailler au Ministère de Défense sur la confidentialité et la sécurité des données.  Clara, diplômée Promo 2017  Autres majeures de la filière   Contact Admissions :  Suivez nous : 

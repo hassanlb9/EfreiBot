@@ -1,0 +1,49 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  La majeure Transports intelligents est dédiée à l’étude des équipements électroniques, électriques et informatiques intégrant les systèmes embarqués qui composent les systèmes de transports autonomes.  La majeure Transports intelligents est dédiée à l’étude des Systèmes embarqués (équipements électroniques, électriques et informatiques) composant les systèmes de transports autonomes (aéronefs, voitures autonomes, systèmes ferroviaires autonomes, drônes, etc) et aidant à leur pilotage. À l’heure où les industries automobile, aéronautique et spatiale font face au défi incontournable de la transition écologique, les ingénieurs « Transports Intelligents » ont vocation à préparer les prochaines ruptures technologiques.  A cette fin, il est indispensable de maîtriser les systèmes temps réels à travers toutes les composantes : électronique, informatique, automatique, télécommunications, réseaux, sécurité, Big Data, calculateurs, etc. C’est pourquoi le programme de la majeure intègre des enseignements sur chacune de ces technologies : télécommunication, traitement du signal, sécurité…  L’approche qualité et normes de l’aéronautique sous-tend les enseignements et les deux projets de cycle Master.  Responsable de la Majeure : Ali Chamas Al Ghouwayel, Ingénieur-Docteur en Télécommunications    Communications Numériques et Protection des Données
+Digital Signal Processing and Processor
+Systèmes Temps-Réel
+Co-design Logiciel Matériel  Tableau de Bord et Techniques d’Accès
+Simulation Multi-Physique
+Vision pour les Systèmes Intelligents
+Big Data et Maintenance Prédictive  Qualité
+Sureté
+Modélisation des systèmes critiques  Conception de Systèmes Embarqués
+Estimation et Décision  Stage technique de début novembre à fin mars  Communications Numériques et Protection des Données
+Digital Signal Processing and Processor
+Systèmes Temps-Réel
+Co-design Logiciel Matériel  Qualité
+Sureté
+Modélisation des systèmes critiques  Conception de Systèmes Embarqués
+Estimation et Décision  Tableau de Bord et Techniques d’Accès
+Simulation Multi-Physique
+Vision pour les Systèmes Intelligents
+Big Data et Maintenance Prédictive  Stage technique de début novembre à fin mars  Avionique Modulaire et Calculateurs Embarqués
+Architecture Satellitaire et Charge Reconfigurable
+Avions du Futur
+Transmissions Sécurisés
+Compatibilité Electromagnétique
+Mécanique du Vol  Stage Ingénieur de début avril à fin septembre  ADAS et Architecture des Systèmes Autonomes
+Sureté et Cybersécurité des Véhicules Autonomes
+Véhicules Connectés
+Navigation Autonome et Perception de l’environement par le Deep Learning
+Modélisation et Simulation des Systèmes d’Aide à la conduite  Big Data Authentification
+Sécurité et accès
+Multimédia et applications 3D
+Design et conception
+Innovation Santé et médecine
+Créativité et entreprenariat  Avionique Modulaire et Calculateurs Embarqués
+Architecture Satellitaire et Charge Reconfigurable
+Avions du Futur
+Transmissions Sécurisés
+Compatibilité Electromagnétique
+Mécanique du Vol  ADAS et Architecture des Systèmes Autonomes
+Sureté et Cybersécurité des Véhicules Autonomes
+Véhicules Connectés
+Navigation Autonome et Perception de l’environement par le Deep Learning
+Modélisation et Simulation des Systèmes d’Aide à la conduite  Stage Ingénieur de début avril à fin septembre  Big Data Authentification
+Sécurité et accès
+Multimédia et applications 3D
+Design et conception
+Innovation Santé et médecine
+Créativité et entreprenariat  PÉDAGOGIE PAR PROJETS  En M1 et M2, les élèves-ingénieurs effectuent deux projets transverses qui font appel à de nombreuses compétences : techniques, gestion de projet, gestion d'équipe, montage d'un business plan, compétences de communication pour défendre son projet...  OUVERTURE À L'INTERNATIONAL  En plus du semestre de mobilité académique en L3, les élèves effectuent une autre expérience à l'international durant leur cursus.  DOUBLES-DIPLÔMES POSSIBLES  Les élèves ont la possibilité d'effectuer un double-diplôme en France ou à l'international en fonction de leurs projet et ambition professionnels.  EXPÉRIENCE ASSOCIATIVE  L'investissement associatif fait partie du projet pédagogique de l'école. En effet, il leur permet de mettre en pratique et de développer un grand nombre de compétences nécessaires à l'ingénieur.  PROXIMITÉ AVEC LES ENTREPRISES  Efrei entretient des liens étroits avec les entreprises qui lui permettent de proposer une formation en phase avec les attentes du marché.  ENTREPRENEURIAT  L'école propose un ensemble de dispositifs pour accompagner les élèves à créer leur start-up.  Exemples de métiers possibles :  Autre Majeure de la filière  Contact Admissions :  Suivez nous : 

@@ -1,0 +1,47 @@
+ {results_count} résultat(s) de votre recherche : {phrase}  Affichage de {results_count} resultat(s) sur {results_count_total}  
+Plus de résultats... 
+  Ce module a été développé afin de rendre le site Efrei accessible au plus grand nombre.  Si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000.  Entièrement enseignée en anglais, la majeure « Data & Artificial Intelligence » prépare le futur ingénieur à identifier les besoins et problématiques métier liés à l’exploitation des données massives, à construire des outils d’analyse pour collecter ces données, structurées ou non structurées, à organiser et synthétiser les sources de données sous forme de résultats exploitables pour modéliser et anticiper de nouveaux comportements ou usages, à intégrer les enjeux réglementaires liés à l’exploitation des données personnelles.  Elle comporte les enseignements nécessaires en statistiques, en informatique.  La production de données numériques ne cesse pas d’augmenter de façon exponentielle ces dernières années. La Data est ainsi appelée l’or noir de 21eme siècle, car couplée avec l’intelligence artificielle, elles révolutionnent la santé, le business, l’urbanisme, la sécurité et beaucoup d’autres secteurs.  La majeure « Data & Artificial Intelligence » forme des ingénieurs capables d’accompagner les entreprises dans leur transformation ‘data-driven’ et ceci en apportant les compétences nécessaires pour exploiter ces données massives afin d’améliorer la stratégie de la prise de décision et l’efficacité dans la gestion ainsi qu’anticiper les tendances à venir.  Les enseignements de la majeure s’articulent particulièrement autour des mathématiques, de l’intelligence artificielle et plus spécifiquement le ‘Machine Learning’ et le ‘Deep Learning sans oublier les régulations en vigueur et l’éthique. Ils préparent le futur ingénieur à :  Des compétences de pointe pour une demande fortement croissante sur le marché de l’emploi  Responsable de Majeure : Salim Nahle, Responsable du pôle Data & Intelligence Artificielle et Ingénieur-Docteur en Informatique    Data Visualization
+Machine Learning
+Advanced Databases
+Big Data Frameworks
+Mathematics for Data Scientists  Stage technique de début novembre à fin mars  Convex Optimization
+Cloud Computing
+Functional Programming with Scala
+Machine Learning II
+NoSQL Databases
+Natural Language processing  Data Visualization
+Machine Learning
+Advanced Databases
+Big Data Frameworks
+Mathematics for Data Scientists  Convex Optimization
+Cloud Computing
+Functional Programming with Scala
+Machine Learning II
+NoSQL Databases
+Natural Language processing  Stage technique de début novembre à fin mars  Transfer & Reinforcement
+Learning
+Distributed Machine Learning
+Applications of Artificial Intelligence
+Deep Learning
+DevOps-MLOps
+Data Management  Stage Ingénieur de début avril à fin septembre  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques
+Enterprise Resource Planning  Transfer & Reinforcement
+Learning
+Distributed Machine Learning
+Applications of Artificial Intelligence
+Deep Learning
+DevOps-MLOps
+Data Management  Droit
+Culture et communication
+Séminaire S’adapter dans un monde globalisé
+Séminaire Manager et élaborer
+Anglais ou FLE (Groupes thématiques)
+LV2 (facultatif)
+Conférences et tables rondes académiques
+Enterprise Resource Planning  Stage Ingénieur de début avril à fin septembre  Alternance possible en 2e année : 2 jours/ 3 jours  PÉDAGOGIE PAR PROJETS  En M1 et M2, les élèves-ingénieurs effectuent deux projets transverses qui font appel à de nombreuses compétences : techniques, gestion de projet, gestion d'équipe, montage d'un business plan, compétences de communication pour défendre son projet...  OUVERTURE À L'INTERNATIONAL  En plus du semestre de mobilité académique en L3, les élèves effectuent une autre expérience à l'international durant leur cursus.  DOUBLES-DIPLÔMES POSSIBLES  Les élèves ont la possibilité d'effectuer un double-diplôme en France ou à l'international en fonction de leurs projet et ambition professionnels.  ENGAGEMENT ASSOCIATIF  L'investissement associatif fait partie du projet pédagogique de l'école. En effet, il leur permet de mettre en pratique et de développer un grand nombre de compétences indispensables à l'ingénieur.  PROXIMITÉ AVEC LES ENTREPRISES  Efrei entretient des liens étroits avec les entreprises qui lui permettent de proposer une formation en phase avec les attentes du marché.  ENTREPRENEURIAT  L'école propose un ensemble de dispositifs pour accompagner les élèves à créer leur start-up.  Exemples de métiers possibles :  Autres majeures de la filière  Contact Admissions :  Suivez nous : 
