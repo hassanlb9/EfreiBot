@@ -23,24 +23,21 @@ Avant toute chose, il faut installer [Python](https://www.python.org/downloads/)
 Ensuite vous pourrez clone ce repo et écrire ces commandes dans votre invité de commande ou votre terminal.
 
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd EfreiBot-main
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python -m venv venv
+$ . venv/Scripts/activate
 ```
 
 Vous aurez aussi besoin d'installer ces dépendances
 
 ```
-pip install flask
-pip install nltk
+pip install requirements.txt
 ```
 
 # Comment lancer l'application
 
 Faites bien attention d'avoir suivi les étapes et les commandes cités dans le prérequis. Maintenant, vous pouvez lancer l'application grace à cette commande :
 ```
-python3 app.py
+python app.py
 ```
 
 # Comment le chat bot fonctionne
