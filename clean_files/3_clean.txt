@@ -1,0 +1,4 @@
+{results_count} résultat(s) de votre recherche : {phrase} affichage de {results_count} resultat(s) sur {results_count_total} plus de résultats... ce module a été développé afin de rendre le site efrei accessible au plus grand nombre.
+si malgré notre vigilance, vous rencontriez le moindre problème d’accessibilité sur notre site, n’hésitez pas à nous contacter à l’adresse site-groupe@efrei.fr ou par téléphone au +33 188 289 000. pour répondre aux attentes et au profil de chaque étudiant, efrei propose 4 programmes de prépa intégrée débutant à la rentrée de septembre.
+efrei offre également, aux étudiants munis d’un bac général (spécialités mathématiques + une spécialité scientifique) et inscrits en paces, cpge ou autres premières années de licence scientifique, la possibilité de se réorienter en cours d’année en intégrant dès février le programme de prépa en rentrée décalée.
+contact admissions : suivez nous :
