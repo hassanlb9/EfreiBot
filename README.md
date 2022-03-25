@@ -52,3 +52,4 @@ On utilise un web scrapper afin d'avoir accès a tout les paragraphes du site in
 # LICENSE
 
 This project is licensed under the `MIT License` - see the LICENSE.md file for details
+Ce projet est sous license `MIT License` - voir le fichier LICENSE.md pour plus de détails
