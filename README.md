@@ -1,24 +1,27 @@
 # EFREIBOT
 This project have been designed and developped by : `Yo`.
+Ce projet a été developpé par : `Yo`. 
+Ce chat bot a été concu dans le but d'un projet scolaire.
   
-# Summary
+# Sommaire
 
-1. [Global description](#Global)
-2. [Prerequisite](#Prerequisite)
-3. [How to launch the app](#How-to-launch-the-app)
-4. [How the bot works](#How-the-bot-works)
+1. [Description du projet](#Description-du-projet)
+2. [Prérequis](#Prérequis)
+3. [Comment lancer l'application](#Comment-lancer-lapp)
+4. [Comment le chat bot fonctionne](#Comment-ca-fonctionne)
 5. [LICENSE](#LICENSE)
 
-# Global description
-This project is a chat bot created for the website of EFREI. The main goal of this chat bot is to help the user to find what we want in an easier way. This project is part of a school project.
+# Description du projet
 
-For this project, we used Python, HTML, CSS. We also used [Flask](https://flask.palletsprojects.com/en/2.0.x/) for the front-end and [NLTK](https://www.nltk.org/) for parsing.
+Ce projet est un chat bot créé pour le site internet de l'EFREI. Le but principal de ce chat bot est d'aider l'utilisateur à trouver ce qu'il recherche d'une façon simple et rapide.
 
-# Prerequisite
+Pour ce projet, nous avons utilisés différentes technologies: Python pour le back-end, du HTML et du CSS pour le frond-end. Nous avons utilisés [Flask](https://flask.palletsprojects.com/en/2.0.x/) afin de réaliser plus facilement le lien entre le Python et le frond-end. Pour parser, nous avons fait l'usage de [NLTK](https://www.nltk.org/)
 
-First you will need to install [Python](https://www.python.org/downloads/)
+# Prérequis
 
-Then you can clone this repo and create a virtual environment by writing these commands using your command prompt or the terminal 
+Avant toute chose, il faut installer [Python](https://www.python.org/downloads/) sur votre ordinateur.
+
+Ensuite vous pourrez clone ce repo et écrire ces commandes dans votre invité de commande ou votre terminal.
 
 ```
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
@@ -27,23 +30,25 @@ $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 
-You will also need to install dependecies
+Vous aurez aussi besoin d'installer ces dépendances
 
 ```
 pip install flask
 pip install nltk
 ```
 
-# How to launch the app
+# Comment lancer l'application
 
-Make sure that you have done every command stated in the Prerequisite. Now you can launch the app by writing this command :
+Faites bien attention d'avoir suivi les étapes et les commandes cités dans le prérequis. Maintenant, vous pouvez lancer l'application grace à cette commande :
 ```
 python3 app.py
 ```
 
-# How the bot works
+# Comment le chat bot fonctionne
 
 First we web scrap the efrei website to be able to have every paragraphs of the website. Then we can filter the files we got with the web scrapper and we filter it again and again and we create a dictionnary that will have the top 40 words. Then we create another file where it build knowledge about the related topic.
+
+On utilise un web scrapper afin d'avoir accès a tout les paragraphes du site internet de l'EFREI. Ensuite, nous pouvons filtrer ce que l'on a eu grâce au web scrapper et nous le refiltrons encore. 
 
 # LICENSE
 
