@@ -1,5 +1,5 @@
 # EFREIBOT
-Ce projet a été developpé par : `Yo`. 
+Ce projet a été developpé par : `Ilian Bekka`, `AlexandreGomez`,`Eduin Osorio`, `Emeric Bertin`, `Hassan Bachacha`, `Anthony Vong` et `Armand Goubeau`. 
 Ce chat bot a été concu dans le but d'un projet scolaire.
   
 # Sommaire
