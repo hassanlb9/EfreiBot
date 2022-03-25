@@ -41,6 +41,8 @@ Faites bien attention d'avoir suivi les étapes et les commandes cités dans le 
 python app.py
 ```
 
+Sur votre navigateur web, entrez cet URL : `http://127.0.0.1:5000/`. Vous devriez voir le chat bot en bas à droite de la page.
+
 # Comment le chat bot fonctionne
 
 First we web scrap the efrei website to be able to have every paragraphs of the website. Then we can filter the files we got with the web scrapper and we filter it again and again and we create a dictionnary that will have the top 40 words. Then we create another file where it build knowledge about the related topic.
