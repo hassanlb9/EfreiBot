@@ -1,17 +1,22 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Bonjour", "Salut", "Y a quelqu'un ?","Hey","hello", "Wsh", "Bonsoir"],
-         "responses": ["Bonjour, comment pourrais-je vous aider", "C'est bon de te revoir", "Saut ! ca va ?"],
+         "patterns": ["Bonjour", "Y a quelqu'un ?","Hey","hello", "Wsh", "Bonsoir", "salut", "coucou", "hey", "heho", "bonjour", "bonsoir", "comment tu vas ?", "slut", "slt", " y a-t-il quelqu'un ? "],
+         "responses": ["Bonjour, comment pourrais-je vous aider", "C'est bon de te revoir", "Saut ?", "hey !"],
          "context": [""]
         },
         {"tag": "goodbye",
-         "patterns": ["Bye", "A plus tard ", "Aurevoir", "Merci et à la prochaine", "A la prochaine"],
+         "patterns": ["Bye", "A plus tard ", "Aurevoir", "Merci et a la prochaine", "A la prochaine", "aurevoir", "au revoir", "partir", "bye", "bonne journée", "bonne soirée", "bonne nuit", "à plus", "à bientôt"],
          "responses": ["A bientôt!", "Bonne journée", "Au revoir! Revenez bientôt."],
          "context": [""]
         },
         {"tag": "thanks",
          "patterns": ["Merci", "Bienvu ", "Super, Merci", "Merci de ton aide"],
-         "responses": ["Heureux d'aider!", "À tout moment!", "Mon plaisir"],
+         "responses": ["Heureux d'aider!", "A tout moment!", "Mon plaisir", " Je vous en prie ! "],
+         "context": [""]
+        },
+        {"tag": "identite",
+         "patterns": ["Tu t'appelles comment ?", "Quel est ton nom ?", "", "Merci de ton aide"],
+         "responses": ["Je suis EfreiBot et Prets à vous servir !"],
          "context": [""]
         },
         {"tag": "noanswer",
@@ -20,28 +25,28 @@
          "context": [""]
         },
         {"tag": "options",
-         "patterns": ["Peux-tu m'aider", "Qu'es ce que tu peux faire?", "Tu peux faire quoi ?", "Comment pouvez-vous être utile?", "Quel accompagnement est proposé ?"],
-         "responses": ["Je peux vous guider à travers tout le site Efrei Paris, et bien sur vous donner toutes les informations que vous souhaitez "],
+         "patterns": [" que pouvez-vous faire ? ", "quelles sont vos caractéristiques ?", "Peux-tu m'aider", "Qu'es ce que tu peux faire?", "Tu peux faire quoi ?", "Comment pouvez-vous être utile?", "Quel accompagnement est proposé ?"],
+         "responses": ["Je peux vous guider a travers tout le site Efrei Paris, e       t bien sur vous donner toutes les informations que vous souhaitez, que souhaitez-vous savoir ? "],
          "context": [""]
         },
-        {"tag": "adverse_drug",
-         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
-         "responses": ["Navigating to Adverse drug reaction module"],
+        {"tag": "dossier_etudiant",
+         "patterns": ["Mon inscription est validée mais on me demande de nouveaux document ?" ],
+         "responses": ["Une fois ton inscription validée, le Student Services te contactera afin de finaliser ton dossier etudiant. Il te sera demandé de fournir ton attestation CVEC (contribution de vie etudiante et de campus), le document de validation de ton année en cours ainsi que ta notification de bourse si tu es boursier. Il s’agit simplement de completer ton dossier etudiant, ton inscription est, quant a elle, bien validée. Pour les etudiants internationaux et primo-arrivants, une copie du titre de séjour ou visa en cours de validité sera demandée."],
          "context": [""]
         },
-        {"tag": "blood_pressure",
-         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
-         "responses": ["Navigating to Blood Pressure module"],
+        {"tag": "modifier_dossier_etudiant",
+         "patterns": ["Je souhaite modifier des informations dans mon dossier" ],
+         "responses": ["Tu as change d’adresse postale, tu souhaites modifier ton adresse mail,…, contacte directement le Student Services a scolarite@efrei.fr"],
          "context": [""]
         },
-        {"tag": "blood_pressure_search",
-         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
-         "responses": ["Please provide Patient ID", "Patient ID?"],
-         "context": ["search_blood_pressure_by_patient_id"]
+        {"tag": "remboursement_frais_inscription",
+         "patterns": ["Je souhaite annuler mon inscription et me faire rembourser", "annuler mon " ],
+         "responses": ["Si tu souhaites te désister et te faire rembourser, il faut que tu adresses au service admission un courrier recommandé avec accusé de réception indiquant ta volonté d’annuler ton inscription (le cachet de la Poste faisant foi). L’adresse est la suivante : EFREI Paris – Service des admissions au 30-32 avenue de la République 94800 Villejuif" ],
+         "context": [""]
         },
-        {"tag": "search_blood_pressure_by_patient_id",
-         "patterns": [],
-         "responses": ["Loading Blood pressure result for Patient"],
+        {"tag": "visa_etudiant_etranger",
+         "patterns": ["Je suis etudiant etranger primo-arrivant et je n’ai pas obtenu mon visa ?"],
+         "responses": ["Tes frais d’inscription te seront intégralement remboursés sur présentation du document de notification de refus. Il faudrait que tu contactes le Student Services a scolarite@efrei.fr"],
          "context": [""]
         },
         {"tag": "pharmacy_search",
@@ -54,15 +59,35 @@
          "responses": ["Loading pharmacy details"],
          "context": [""]
         },
-        {"tag": "hospital_search",
-         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-         "responses": ["Please provide hospital name or location"],
-         "context": ["search_hospital_by_params"]
+        {"tag": "Programme_Grande_Ecole_ingénieurs?",
+         "patterns": ["Comment postuler pour le Programme Grande Ecole d'ingénieurs?" ],
+         "responses": ["Quelle année ?"],
+         "context": ["premier", "2ème année", "3ème année","4ème année", "5ème année"]
         },
-        {"tag": "search_hospital_by_params",
+        {"tag": "premier",
          "patterns": [],
-         "responses": ["Please provide hospital type"],
-         "context": ["search_hospital_by_type"]
+         "responses": ["Tu es en Terminale générale avec options scientifiques ou en STI2D: La procédure est la suivante : nous choisir sur Parcoursup et t’inscrire au Concours Puissance Alpha. Tu es en Terminale générale avec option mathématiques : La procédure est la suivante : choisir sur Parcoursup la prépa intégrée Renforcée. Tu as déjà ton baccalauréat : La procédure est la suivante : candidater directement sur notre site ou nous choisir sur Parcoursup."],                      
+         "context": [""]
+        },
+        {"tag": "2ème année",
+         "patterns": [],
+         "responses": ["Si tu es intéressé(e) par une intégration en 2ème année de prépa intégrée, il suffit de te rendre sur le site du Concours Puissance Alpha et y déposer ton dossier de candidature."],                      
+         "context": [""]
+        },
+        {"tag": "3ème année",
+         "patterns": [],
+         "responses": ["Tu es en CPGE (PT, MP, PC ou PSI) : La procédure est la suivante : sélectionner le concours Puissance Alpha sur le portail SCEI entre mi-décembre et mi-janvier. Pour les autres formations : La procédure est la suivante : candidater directement sur notre site."],                      
+         "context": [""]
+        },
+        {"tag": "4ème année",
+         "patterns": [],
+         "responses": ["La candidature se fait directement sur le site efrei.fr"],                      
+         "context": [""]
+        },
+        {"tag": "5ème année",
+         "patterns": [],
+         "responses": ["Aucune candidature ne peut se faire pour une 5ème année."],                      
+         "context": [""]
         },
         {"tag": "search_hospital_by_type",
          "patterns": [],
@@ -73,6 +98,22 @@
          "patterns": ["candidature"],
          "responses": ["Of course here is the link for you to candidate https://www.myefrei.fr/admission/form?source=efrei "],
          "context": [""]
+        },
+        {
+         "tag": "monEtat",
+         "patterns": ["comment tu vas", "tu vas bien", "ça va", "comment te portes tu", "cv", "ca va"],
+         "responses": [ "Je vais bien merci et vous ??", "Je suis un robot heureux ;) et vous ?"]
+        },
+
+        {
+         "tag": "relance",
+         "patterns": ["je vais bien merci", "Bien", "ahbon", "ah", "ah oui", "je suis aussi heureux", "je me porte bien", "tres bien", "mal", "je vais mal", "je suis malade", "je suis fatigue", "d'accord", "ok", "aok", "quoi"],
+         "responses": ["Super, qui puis-je faire pour vous ?"]
+        },
+        {
+         "tag": "nom",
+         "patterns": ["ton nom", "comment tu t'appelles ?", "comment t'appelles tu ?", "quel est ton nom ?", "comment puis je t'appeler ?", "comment je dois t'appeler ?", "tu t'appelles comment?", "ton prénom", "quelle est ton prénom ?"],
+         "responses": ["Tu peux m'appeler EfreiBot l'assistant :) !"]
         }
    ]
 }
