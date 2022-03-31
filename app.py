@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 import nltk
-import create_response
-import fact_responses
-from  bot  import respond
 from  model_tenserflow.MYBot  import get_responses, intents, predict_class
 
 nltk.download('vader_lexicon')
@@ -12,12 +9,6 @@ app = Flask(__name__)
 def index_get():
     return render_template('base.html')
 
-@app.post("/predict1")
-def predict1():   
-    text = request.get_json().get("message")
-    response = respond(text)
-    message = {"answer": response}
-    return jsonify(message)
 
 @app.route("/predict", methods=["POST"])
 def predict():   
