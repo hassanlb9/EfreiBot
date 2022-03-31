@@ -1,116 +1,1444 @@
-{"intents": [
-        { "tag": "greeting",
-          "patterns": ["Bonjour", "Y a quelqu'un ?","Hey","hello", "Wsh", "Bonsoir", "salut", "coucou", "hey", "heho", "bonjour", "bonsoir", "salut", "slt", " y a-t-il quelqu'un ? "],
-          "responses": ["Bonjour, comment pourrais-je vous aider ?", "C'est bon de te revoir", "Salu  t ?", "hey !"]
-          
-        },
-        { "tag": "goodbye",
-          "patterns": ["Bye", "A plus tard ", "Aurevoir", "Merci et a la prochaine", "A la prochaine", "aurevoir", "au revoir", "partir", "bye", "bonne journée", "bonne soirée", "bonne nuit", "à plus", "à bientôt"],
-          "responses": ["A bientôt!", "Bonne journée", "Au revoir! Revenez bientôt."]
-    
-        },
-        { "tag": "thanks",
-          "patterns": ["Merci", "Bienvu ", "Super, Merci", "Merci de ton aide"],
-          "responses": ["Heureux d'aider!", "A tout moment!", "Mon plaisir", " Je vous en prie ! "]
-          
-        },
-        { "tag": "identite",
-          "patterns": ["Tu t'appelles comment ?", "Quel est ton nom ?", "", "Merci de ton aide"],
-          "responses": ["Je suis EfreiBot et Prets à vous servir !"]
-          
-        },
-        { "tag": "noanswer",
-          "patterns": [],
-          "responses": ["Désolé, je ne peux pas vous comprendre", "Merci de me donner plus d'infos", "Pas sur que je comprenne"]
-          
-        },
-        { "tag": "options",
-          "patterns": [" que pouvez-vous faire ? ", "quelles sont vos caractéristiques ?", "Peux-tu m'aider", "Qu'es ce que tu peux faire?", "Tu peux faire quoi ?", "Comment pouvez-vous être utile?", "Quel accompagnement est proposé ?"],
-          "responses": ["Je peux vous guider a travers tout le site Efrei Paris, e       t bien sur vous donner toutes les informations que vous souhaitez, que souhaitez-vous savoir ? "]
-          
-        },
-        { "tag": "dossier_etudiant",
-          "patterns": ["Mon inscription est validée mais on me demande de nouveaux document ?" ],
-          "responses": ["Une fois ton inscription validée, le Student Services te contactera afin de finaliser ton dossier etudiant. Il te sera demandé de fournir ton attestation CVEC (contribution de vie etudiante et de campus), le document de validation de ton année en cours ainsi que ta notification de bourse si tu es boursier. Il s’agit simplement de completer ton dossier etudiant, ton inscription est, quant a elle, bien validée. Pour les etudiants internationaux et primo-arrivants, une copie du titre de séjour ou visa en cours de validité sera demandée."]
-          
-        },
-        { "tag": "modifier_dossier_etudiant",
-          "patterns": ["Je souhaite modifier des informations dans mon dossier" ],
-          "responses": ["Tu as change d’adresse postale, tu souhaites modifier ton adresse mail,…, contacte directement le Student Services a scolarite@efrei.fr"]
-          
-        },
-        { "tag": "remboursement_frais_inscription",
-          "patterns": ["Je souhaite annuler mon inscription et me faire rembourser", "annuler mon " ],
-          "responses": ["Si tu souhaites te désister et te faire rembourser, il faut que tu adresses au service admission un courrier recommandé avec accusé de réception indiquant ta volonté d’annuler ton inscription (le cachet de la Poste faisant foi). L’adresse est la suivante : EFREI Paris – Service des admissions au 30-32 avenue de la République 94800 Villejuif" ]
-          
-        },
-        { "tag": "visa_etudiant_etranger",
-          "patterns": ["Je suis etudiant etranger primo-arrivant et je n’ai pas obtenu mon visa ?"],
-          "responses": ["Tes frais d’inscription te seront intégralement remboursés sur présentation du document de notification de refus. Il faudrait que tu contactes le Student Services a scolarite@efrei.fr"]
-          
-        },
-        { "tag": "pharmacy_search",
-          "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
-          "responses": ["Please provide pharmacy name"]
-        },
-        { "tag": "search_pharmacy_by_name",
-          "patterns": [],
-          "responses": ["Loading pharmacy details"]
-        },
-        { "tag": "Programme_Grande_Ecole_ingénieurs?",
-          "patterns": ["Comment postuler pour le Programme Grande Ecole d'ingénieurs?" ],
-          "responses": ["Quelle année ?"]
-        },
-        { "tag": "Pourquoi_efrei",
-          "patterns": ["Pourquoi rejoindre l'efrei ?"],
-          "responses": ["1ere ecole d ingenieur informatique privee. Efrei Paris c'est aussi 85 ans d'innovation et d'existence avec 92 Partenariats internationaux sur 5 continents."]    
-          
-        },
-        { "tag": "Devenir_ingenieur_efrei_cycle_prepa",
-          "patterns": ["Comment devenir ingénieur efrei à partir du cycle prepa ?", "cycle prepa" ],
-          "responses": ["Pour répondre aux attentes et au profil de chaque étudiant, Efrei propose 5 programmes de prépa intégrée débutant à la rentrée de septembre : Prépa Scientifique Classique, Prépa Bio & Numérique, Prépa Renforcée, Prépa Section Internationale, Prépa Rentrée Décalée"]                    
-          
-        },
-        { "tag": "Devenir_ingenieur_efrei_cycle_ingenieur",
-          "patterns": ["Comment devenir ingénieur efrei à partir du cycle ingénieur ?", "cycle ingénieur"],
-          "responses": ["A l’issue des 3 premières années du cycle Licence, généraliste et en tronc commun, les élèves choisissent leur propre parcours de formation en cohérence avec leur projet professionnel"],                      
-          " contexte ": ["Data Science", "Sécurité & Réseaux", "Systèmes Embarqués" ,"Application", "Systèmes & Cloud"]
-        },
-        { "tag": "Data Science",
-          "patterns": [],
-          "responses": ["Big Data & Machine Learning, Bio Informatique, Business Intelligence & Analytics"]                      
-          
-        },
-        { "tag": "Majeur_BigData_and_Artificial_Intelligence",
-          "patterns": ["Qu'es ce que le Big data and Artificial Intelligence ?", "Big Data and Arificial Intelligence", "Porquoi le BigData and Artificial Intelligence"],
-          "responses": ["Entièrement enseignée en anglais, la majeure « Data & Artificial Intelligence » prépare le futur ingénieur à identifier les besoins et problématiques métier liés à l’exploitation des données massives, à construire des outils d’analyse pour collecter ces données, structurées ou non structurées, à organiser et synthétiser les sources de données sous forme de résultats exploitables pour modéliser et anticiper de nouveaux comportements ou usages, à intégrer les enjeux réglementaires liés à l’exploitation des données personnelles. Elle comporte les enseignements nécessaires en statistiques, en informatique. Pour plus d'informations rendez-vous sur lien ci-dessous: https://www.efrei.fr/programme-grande-ecole/le-cycle-ingenieur/ingenieur-big-data/"]                    
-          
-        },
-        { "tag": "search_hospital_by_type",
-          "patterns": [],
-          "responses": ["Loading hospital details"]
-          
-        },
-        { "tag": "candidature",
-          "patterns": ["candidature"],
-          "responses": ["Of course here is the link for you to candidate https://www.myefrei.fr/admission/form?source=efrei "]
-          
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Bonjour",
+                "Y a quelqu'un ?",
+                "Hey",
+                "hello",
+                "Wsh",
+                "Bonsoir",
+                "salut",
+                "coucou",
+                "hey",
+                "heho",
+                "bonjour",
+                "bonsoir",
+                "salut",
+                "slt",
+                " y a-t-il quelqu'un ? "
+            ],
+            "responses": [
+                "Bonjour, comment pourrais-je vous aider ?",
+                "C'est bon de te revoir",
+                "Salut !",
+                "hey !"
+            ]
         },
         {
-          "tag": "monEtat",
-          "patterns": ["comment tu vas", "tu vas bien", "ça va", "comment te portes tu", "cv", "ca va"],
-          "responses": [ "Je vais bien merci et vous ??", "Je suis un robot heureux ;) et vous ?"]
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "A plus tard ",
+                "Aurevoir",
+                "Merci et a la prochaine",
+                "A la prochaine",
+                "aurevoir",
+                "au revoir",
+                "partir",
+                "bye",
+                "bonne journ\u00e9e",
+                "bonne soir\u00e9e",
+                "bonne nuit",
+                "\u00e0 plus",
+                "\u00e0 bient\u00f4t"
+            ],
+            "responses": [
+                "A bient\u00f4t!",
+                "Bonne journ\u00e9e",
+                "Au revoir! Revenez bient\u00f4t."
+            ]
         },
-
         {
-          "tag": "relance",
-          "patterns": ["je vais bien merci", "Bien", "ahbon", "ah", "ah oui", "je suis aussi heureux", "je me porte bien", "tres bien", "mal", "je vais mal", "je suis malade", "je suis fatigue", "d'accord", "ok", "aok", "quoi"],
-          "responses": ["Super, qui puis-je faire pour vous ?"]
+            "tag": "thanks",
+            "patterns": [
+                "Merci",
+                "Bienvu ",
+                "Super, Merci",
+                "Merci de ton aide"
+            ],
+            "responses": [
+                "Heureux d'aider!",
+                "A tout moment!",
+                "Mon plaisir",
+                " Je vous en prie ! "
+            ]
         },
         {
-          "tag": "nom",
-          "patterns": ["ton nom", "comment tu t'appelles ?", "comment t'appelles tu ?", "quel est ton nom ?", "comment puis je t'appeler ?", "comment je dois t'appeler ?", "tu t'appelles comment?", "ton prénom", "quelle est ton prénom ?"],
-          "responses": ["Tu peux m'appeler EfreiBot l'assistant :) !"]
+            "tag": "identite",
+            "patterns": [
+                "Tu t'appelles comment ?",
+                "Quel est ton nom ?",
+                "",
+                "Merci de ton aide"
+            ],
+            "responses": [
+                "Je suis EfreiBot et Prets \u00e0 vous servir !"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": [
+                "D\u00e9sol\u00e9, je ne peux pas vous comprendre",
+                "Merci de me donner plus d'infos",
+                "Pas sur que je comprenne"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                " que pouvez-vous faire ? ",
+                "quelles sont vos caract\u00e9ristiques ?",
+                "Peux-tu m'aider",
+                "Qu'es ce que tu peux faire?",
+                "Tu peux faire quoi ?",
+                "Comment pouvez-vous \u00eatre utile?",
+                "Quel accompagnement est propos\u00e9 ?"
+            ],
+            "responses": [
+                "Je peux vous guider a travers tout le site Efrei Paris, e       t bien sur vous donner toutes les informations que vous souhaitez, que souhaitez-vous savoir ? "
+            ]
+        },
+        {
+            "tag": "dossier_etudiant",
+            "patterns": [
+                "Mon inscription est valid\u00e9e mais on me demande de nouveaux document ?"
+            ],
+            "responses": [
+                "Une fois ton inscription valid\u00e9e, le Student Services te contactera afin de finaliser ton dossier etudiant. Il te sera demand\u00e9 de fournir ton attestation CVEC (contribution de vie etudiante et de campus), le document de validation de ton ann\u00e9e en cours ainsi que ta notification de bourse si tu es boursier. Il s\u2019agit simplement de completer ton dossier etudiant, ton inscription est, quant a elle, bien valid\u00e9e. Pour les etudiants internationaux et primo-arrivants, une copie du titre de s\u00e9jour ou visa en cours de validit\u00e9 sera demand\u00e9e."
+            ]
+        },
+        {
+            "tag": "modifier_dossier_etudiant",
+            "patterns": [
+                "Je souhaite modifier des informations dans mon dossier"
+            ],
+            "responses": [
+                "Tu as change d\u2019adresse postale, tu souhaites modifier ton adresse mail,\u2026, contacte directement le Student Services a scolarite@efrei.fr"
+            ]
+        },
+        {
+            "tag": "remboursement_frais_inscription",
+            "patterns": [
+                "Je souhaite annuler mon inscription et me faire rembourser",
+                "annuler mon "
+            ],
+            "responses": [
+                "Si tu souhaites te d\u00e9sister et te faire rembourser, il faut que tu adresses au service admission un courrier recommand\u00e9 avec accus\u00e9 de r\u00e9ception indiquant ta volont\u00e9 d\u2019annuler ton inscription (le cachet de la Poste faisant foi). L\u2019adresse est la suivante : EFREI Paris \u2013 Service des admissions au 30-32 avenue de la R\u00e9publique 94800 Villejuif"
+            ]
+        },
+        {
+            "tag": "visa_etudiant_etranger",
+            "patterns": [
+                "Je suis etudiant etranger primo-arrivant et je n\u2019ai pas obtenu mon visa ?"
+            ],
+            "responses": [
+                "Tes frais d\u2019inscription te seront int\u00e9gralement rembours\u00e9s sur pr\u00e9sentation du document de notification de refus. Il faudrait que tu contactes le Student Services a scolarite@efrei.fr"
+            ]
+        },
+        {
+            "tag": "Pourquoi_efrei",
+            "patterns": [
+                "Pourquoi rejoindre l'efrei ?"
+            ],
+            "responses": [
+                "1ere ecole d ingenieur informatique privee. Efrei Paris c'est aussi 85 ans d'innovation et d'existence avec 92 Partenariats internationaux sur 5 continents."
+            ]
+        },
+        {
+            "tag": "Devenir_ingenieur_efrei_cycle_prepa",
+            "patterns": [
+                "Comment devenir ing\u00e9nieur efrei \u00e0 partir du cycle prepa ?",
+                "cycle prepa"
+            ],
+            "responses": [
+                "Pour r\u00e9pondre aux attentes et au profil de chaque \u00e9tudiant, Efrei propose 5 programmes de pr\u00e9pa int\u00e9gr\u00e9e d\u00e9butant \u00e0 la rentr\u00e9e de septembre : Pr\u00e9pa Scientifique Classique, Pr\u00e9pa Bio & Num\u00e9rique, Pr\u00e9pa Renforc\u00e9e, Pr\u00e9pa Section Internationale, Pr\u00e9pa Rentr\u00e9e D\u00e9cal\u00e9e"
+            ]
+        },
+        {
+            "tag": "Devenir_ingenieur_efrei_cycle_ingenieur",
+            "patterns": [
+                "Comment devenir ing\u00e9nieur efrei \u00e0 partir du cycle ing\u00e9nieur ?",
+                "cycle ing\u00e9nieur"
+            ],
+            "responses": [
+                "A l\u2019issue des 3 premi\u00e8res ann\u00e9es du cycle Licence, g\u00e9n\u00e9raliste et en tronc commun, les \u00e9l\u00e8ves choisissent leur propre parcours de formation en coh\u00e9rence avec leur projet professionnel"
+            ],
+            " contexte ": [
+                "Data Science",
+                "S\u00e9curit\u00e9 & R\u00e9seaux",
+                "Syst\u00e8mes Embarqu\u00e9s",
+                "Application",
+                "Syst\u00e8mes & Cloud"
+            ]
+        },
+        {
+            "tag": "Data Science",
+            "patterns": [],
+            "responses": [
+                "Big Data & Machine Learning, Bio Informatique, Business Intelligence & Analytics"
+            ]
+        },
+        {
+            "tag": "Majeur_BigData_and_Artificial_Intelligence",
+            "patterns": [
+                "Qu'es ce que le Big data and Artificial Intelligence ?",
+                "Big Data and Arificial Intelligence",
+                "Porquoi le BigData and Artificial Intelligence"
+            ],
+            "responses": [
+                "Enti\u00e8rement enseign\u00e9e en anglais, la majeure \u00ab Data & Artificial Intelligence \u00bb pr\u00e9pare le futur ing\u00e9nieur \u00e0 identifier les besoins et probl\u00e9matiques m\u00e9tier li\u00e9s \u00e0 l\u2019exploitation des donn\u00e9es massives, \u00e0 construire des outils d\u2019analyse pour collecter ces donn\u00e9es, structur\u00e9es ou non structur\u00e9es, \u00e0 organiser et synth\u00e9tiser les sources de donn\u00e9es sous forme de r\u00e9sultats exploitables pour mod\u00e9liser et anticiper de nouveaux comportements ou usages, \u00e0 int\u00e9grer les enjeux r\u00e9glementaires li\u00e9s \u00e0 l\u2019exploitation des donn\u00e9es personnelles. Elle comporte les enseignements n\u00e9cessaires en statistiques, en informatique. Pour plus d'informations rendez-vous sur lien ci-dessous: https://www.efrei.fr/programme-grande-ecole/le-cycle-ingenieur/ingenieur-big-data/"
+            ]
+        },
+        {
+            "tag": "candidature",
+            "patterns": [
+                "candidature"
+            ],
+            "responses": [
+                "Voici le lien pour candidater: https://www.myefrei.fr/admission/form?source=efrei "
+            ]
+        },
+        {
+            "tag": "monEtat",
+            "patterns": [
+                "comment tu vas",
+                "tu vas bien",
+                "\u00e7a va",
+                "comment te portes tu",
+                "cv",
+                "ca va"
+            ],
+            "responses": [
+                "Je vais bien merci et vous ?",
+                "Je suis un robot heureux ;) et vous ?"
+            ]
+        },
+        {
+            "tag": "relance",
+            "patterns": [
+                "je vais bien merci",
+                "Bien",
+                "ahbon",
+                "ah",
+                "ah oui",
+                "je suis aussi heureux",
+                "je me porte bien",
+                "tres bien",
+                "mal",
+                "je vais mal",
+                "je suis malade",
+                "je suis fatigue",
+                "d'accord",
+                "ok",
+                "aok",
+                "quoi"
+            ],
+            "responses": [
+                "Super, que puis-je faire pour vous ?"
+            ]
+        },
+        {
+            "tag": "nom",
+            "patterns": [
+                "ton nom",
+                "comment tu t'appelles ?",
+                "comment t'appelles tu ?",
+                "quel est ton nom ?",
+                "comment puis je t'appeler ?",
+                "comment je dois t'appeler ?",
+                "tu t'appelles comment?",
+                "ton pr\u00e9nom",
+                "quelle est ton pr\u00e9nom ?"
+            ],
+            "responses": [
+                "Tu peux m'appeler EfreiBot l'assistant :) !"
+            ]
+        },
+        {
+            "tag": "Presentation_semestre_international_L3",
+            "patterns": [
+                "Pr\u00e9sente moi le semestre international L3"
+            ],
+            "responses": [
+                "L\u2019exp\u00e9rience acad\u00e9mique et professionnelle \u00e0 l\u2019international est devenue incontournable pour la tr\u00e8s grande majorit\u00e9 des entreprises, aussi, le cursus ing\u00e9nieur d\u2019Efrei inclut deux p\u00e9riodes de mobilit\u00e9 internationale, dont un semestre international obligatoire pour l\u2019ensemble des \u00e9tudiants de l\u2019ann\u00e9e L3. Le semestre international de l\u2019ann\u00e9e L3 est organis\u00e9 par nos universit\u00e9s partenaires pour des groupes d\u2019\u00e9tudiants Efrei. Le programme est organis\u00e9 au Canada, en Angleterre, en Pologne, en Chine, en Inde, en Malaisie et en Afrique du Sud."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Programme_semestre_international_L3",
+            "patterns": [
+                "Quel est le programme du semestre \u00e0 l'international",
+                "pr\u00e9sente moi le programme de l'immersion \u00e0 l'international",
+                "je veux des informations concernant le programme du voyage \u00e0 l'international"
+            ],
+            "responses": [
+                "Ce programme permet aux \u00e9tudiants de suivre plusieurs modules scientifiques et techniques du programme de L3 dans un cadre universitaire diff\u00e9rent de celui d\u2019Efrei. Ce s\u00e9jour constitue une exp\u00e9rience riche et unique lors de laquelle l\u2019\u00e9l\u00e8ve-ing\u00e9nieur d\u00e9veloppe ses comp\u00e9tences en anglais et apprend \u00e0 \u00e9voluer dans un nouveau syst\u00e8me acad\u00e9mique et dans un nouvel environnement culturel.nis\u00e9 au Canada, en Angleterre, en Pologne, en Chine, en Inde, en Malaisie et en Afrique du Sud."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Concordia_university",
+            "patterns": [
+                "Concordia university",
+                "je veux des informations concernant le semestre \u00e0 l'etranger au canada \u00e0 concordia"
+            ],
+            "responses": [
+                "Avec ses deux campus situ\u00e9s au c\u0153ur de la cosmopolite ville de Montr\u00e9al, Concordia University accueille pr\u00e8s de 50 000 \u00e9tudiants dans plus de 700 programmes. Cette prestigieuse universit\u00e9 canadienne fond\u00e9e en 1974 de la fusion entre Loyola College et Sir George Williams University est l\u2019une des deux universit\u00e9s anglophones de la ville de Montr\u00e9al. Elle accueille les \u00e9tudiants d\u2019Efrei depuis l\u2019automne 2016."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Cape_Peninsula_University_of_Technology_(CPUT)",
+            "patterns": [
+                "Capetown, Afrique du Sud",
+                "je veux des informations concernant le semestre \u00e0 l'etranger en Afrique du sud",
+                "Information concernant Cape Peninsula University of Technology"
+            ],
+            "responses": [
+                "Form\u00e9e en 2005 suite \u00e0 la fusion de plusieurs \u00e9tablissements technologiques, Cape Peninsula University of Technology est dot\u00e9e de 6 campus et accueille plus de 35 000 \u00e9tudiants. Les \u00e9tudiants d\u2019Efrei sont accueillis sur le campus de Cape Town en centre-ville par la facult\u00e9 d\u2019Informatique et Design. Cette facult\u00e9 regroupe une quinzaine de d\u00e9partements et offre de nombreux programmes notamment dans les r\u00e9seaux de communication, le d\u00e9veloppement logiciel et la gestion des technologies de l\u2019information\u2026"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Staffordshire_University",
+            "patterns": [
+                "Staffordshire University",
+                "je veux des informations concernant le semestre \u00e0 l'etranger en Grande Bretagne, Stoke on Trent "
+            ],
+            "responses": [
+                "L\u2019universit\u00e9 de Staffordshire est une universit\u00e9 de recherche situ\u00e9e au nord de l\u2019Angleterre. Son campus, situ\u00e9 au centre-ville de Stoke-on-Trent, accueille au total un peu plus de 15000 \u00e9tudiants et propose un environnement technologique de pointe. Les programmes d\u2019informatique de Staffordshire University offrent de nombreuses voies de sp\u00e9cialisation comme la mod\u00e9lisation 3D, l\u2019imagerie virtuelle, les jeux vid\u00e9o\u2026"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "South_East_University_(SEU)",
+            "patterns": [
+                "Nankin, Chine",
+                "je veux des informations concernant le semestre \u00e0 l'etranger \u00e0 South East University en chine"
+            ],
+            "responses": [
+                "Fond\u00e9e en 1902, South East University est l\u2019une des plus anciennes institutions de l\u2019enseignement sup\u00e9rieur chinois. Elle se situe \u00e0 Nanjing, ancienne capitale de la Chine du Sud, dot\u00e9e d\u2019une grande richesse historique et culturelle. Elle accueille pr\u00e8s de 30000 \u00e9tudiants dont 1000 \u00e9tudiants internationaux chaque ann\u00e9e. L\u2019universit\u00e9 est class\u00e9e parmi les 20 meilleures universit\u00e9s de Chine et parmi les 300 meilleures dans le monde. Cette destination n\u2019est propos\u00e9e qu\u2019au premier semestre de l\u2019ann\u00e9e acad\u00e9mique en raison des vacances de printemps qui ont lieu en f\u00e9vrier/mars en Chine."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Asia Pacific University (APU)",
+            "patterns": [
+                "Asia Pacific University (APU)",
+                "je veux des informations concernant le semestre \u00e0 l'etranger \u00e0 Asia Pacific University en Malaisie",
+                "Kuala Lumpur, Malaisie"
+            ],
+            "responses": [
+                "Asia Pacific University est un \u00e9tablissement priv\u00e9 d\u2019enseignement sup\u00e9rieur malais accr\u00e9dit\u00e9 par le MQA (Malaysian Qualification Agency) et d\u00e9tenteur de son label qualit\u00e9. Au c\u0153ur de Kuala Lumpur, la vibrante capitale de la Malaisie, cette universit\u00e9 priv\u00e9e accueille 12000 \u00e9tudiants venant de 130 pays et propose un enseignement de pointe dans le domaine des nouvelles technologies."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "AGH_University_of_Science_and_Technology",
+            "patterns": [
+                "Cracovie, Pologne",
+                "je veux des informations concernant le semestre \u00e0 l'etranger \u00e0 AGH University of Science and Technology en Pologne",
+                "AGH University of Science and Technology (AGH UST)"
+            ],
+            "responses": [
+                "La prestigieuse universit\u00e9 de recherche AGH University of Science and Technology, au top du classement des universit\u00e9s polonaises et parmi les meilleures universit\u00e9s europ\u00e9ennes, accueille chaque ann\u00e9e pr\u00e8s de 25000 \u00e9tudiants sur son campus au centre de Cracovie, l\u2019une des plus belles et dynamiques villes de Pologne. L\u2019universit\u00e9 propose plus de 62 programmes en sciences et technologies et 200 sp\u00e9cialisations."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Manipal_Academy_of_Higher_Education",
+            "patterns": [
+                "Karnataka, Inde",
+                "je veux des informations concernant le semestre \u00e0 l'etranger \u00e0 Manipal Academy of Higher Education en Inde",
+                "Manipal Academy of Higher Education"
+            ],
+            "responses": [
+                "Depuis pr\u00e8s de 60 ans, Manipal Academy of Higher Education conjugue internationalisation et excellence universitaire en d\u00e9ployant ses programmes au-del\u00e0 des fronti\u00e8res de l\u2019Inde, en passant par Dubai et la Malaisie. Au top du classement des universit\u00e9s priv\u00e9es indiennes et figurant au classement des meilleures universit\u00e9s d\u2019Asie, Manipal Academy of Higher Education accueille les \u00e9tudiants d\u2019Efrei sur son verdoyant campus de Manipal, dans le sud-ouest de l\u2019Inde, sur la c\u00f4te de la mer d\u2019Arabie."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Doubles-dipl\u00f4mes internationaux",
+            "patterns": [
+                "Doubles-dipl\u00f4mes internationaux",
+                "Pourquoi faire le doubles dipl\u00f4mes internationaux",
+                "je veux des informations concernant le Doubles-dipl\u00f4mes \u00e0 l'international"
+            ],
+            "responses": [
+                "Etre titulaire d\u2019un Master of Science (MSc), d\u2019un Master of Engineering (MEng) ou d\u2019une Ma\u00eetrise permet d\u2019acqu\u00e9rir une expertise dans un domaine pointu de l\u2019informatique (ex : intelligence artificielle, science des donn\u00e9es, cybers\u00e9curit\u00e9, jeux vid\u00e9o\u2026) ou une double-comp\u00e9tence en management. Un dipl\u00f4me \u00e0 l\u2019international permet aussi une plus grande lisibilit\u00e9 des profils sur le march\u00e9 de l\u2019emploi \u00e0 l\u2019international et permet d\u2019acc\u00e9der plus facilement \u00e0 des postes internationaux. Afin que les \u00e9l\u00e8ves puissent, s\u2019ils le d\u00e9sirent, acqu\u00e9rir un second dipl\u00f4me \u00e0 l\u2019\u00e9tranger, Efrei a n\u00e9goci\u00e9 des accords permettant l\u2019acc\u00e8s \u00e0 41 programmes de Master avec 13 universit\u00e9s partenaires. Les \u00e9l\u00e8ves d\u2019Efrei, candidats \u00e0 ces programmes, sont s\u00e9lectionn\u00e9s conjointement par Efrei et par l\u2019universit\u00e9 d\u2019accueil, sur crit\u00e8res acad\u00e9miques. A la cl\u00e9, le s\u00e9same d\u2019une carri\u00e8re ouverte sur le monde !"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "Programme_SWIM",
+            "patterns": [
+                "Study or Work International Mobility",
+                "Programme SWIM",
+                "Pr\u00e9sente moi le programme swim"
+            ],
+            "responses": [
+                "La mobilit\u00e9 individuelle SWIM obligatoire dans le cadre du cursus ing\u00e9nieur peut prendre des formes multiples : stages en entreprise ou en laboratoire universitaire, \u00e9changes semestriels, doubles-dipl\u00f4mes, s\u00e9jours linguistiques, projets humanitaires. Les \u00e9tudiants peuvent choisir d\u2019effectuer leur s\u00e9jour SWIM dans le pays de leur choix (hors France, DROM COM et principaut\u00e9 de Monaco) et durant l\u2019ann\u00e9e de leur choix. L\u2019objectif de la mobilit\u00e9 internationale SWIM est de permettre aux \u00e9l\u00e8ves-ing\u00e9nieurs d\u2019Efrei de d\u00e9velopper leurs comp\u00e9tences d\u2019autonomie, d\u2019ind\u00e9pendance et d\u2019ouverture d\u2019esprit, ainsi que leurs comp\u00e9tences linguistiques et interculturelles."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "porte",
+            "patterns": [
+                "portes ouvertes",
+                "porte ouverte",
+                "comment fonctionne les portes ouvertes ?",
+                "o\u00f9 sont les portes ouvertes ?",
+                "quand sont les portes ouvertes ?"
+            ],
+            "responses": [
+                "L\u2019\u00e9v\u00e9nement qui te permet de rencontrer les \u00e9tudiants de pr\u00e9pa, du cycle ing\u00e9nieur, de BTS, de Bachelors, de Masters et Mast\u00e8res ! Tu pourras \u00e9galement retrouver toute l\u2019\u00e9quipe p\u00e9dagogique et de nombreux intervenants pour r\u00e9pondre \u00e0 toutes tes questions ! Visite le campus, rencontre les \u00e9tudiants et l\u2019\u00e9quipe p\u00e9dagogique pour leur poser toutes tes questions, retrouve l\u2019ensemble des conditions d\u2019admissions, les dates Parcoursup et les possibilit\u00e9s d\u2019alternance. Lien pour le campus Paris : https://www.efrei.fr/demande-de-bochure-inscription-aux-evenements/?type=event&cat=portes-ouvertes&id=2955. Lien pour le campus Bordeaux : https://www.efrei.fr/demande-de-bochure-inscription-aux-evenements/?type=event&cat=portes-ouvertes&id=3241"
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "admission",
+                "post-bac",
+                "comment fonctionne les admissions ?",
+                "comment fonctionne les admissions post bac?"
+            ],
+            "responses": [
+                "Les candidat(e)s issu(e)s de terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique) et STI2D doivent suivre la proc\u00e9dure d\u2019Admission Parcoursup et passer le Concours Puissance Alpha pour int\u00e9grer la 1re ann\u00e9e de classe pr\u00e9pa int\u00e9gr\u00e9e. Les candidat(e)s de terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 SES + Sp\u00e9cialit\u00e9s Math\u00e9matiques) doivent suivre la proc\u00e9dure d\u2019Admission Parcoursup (Hors concours Puissance Alpha)"
+            ]
+        },
+        {
+            "tag": "classique",
+            "patterns": [
+                "prepa classique",
+                "comment fonctionne la prepa classique ?",
+                "prepa scientifique",
+                "quelle est la prepa scientifique ?",
+                "qui peut rejoindre la prepa classique ?"
+            ],
+            "responses": [
+                "Ouverte aux \u00e9l\u00e8ves issus de Terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique), la pr\u00e9pa int\u00e9gr\u00e9e classique scientifique d\u2019Efrei s\u2019apparente aux classes pr\u00e9paratoires classiques tant par ses contenus p\u00e9dagogiques que par ses exigences. La formation de l\u2019ing\u00e9nieur ne saurait se limiter \u00e0 la formation scientifique et technique. En effet, l\u2019ing\u00e9nieur est aussi naturellement destin\u00e9 aux hautes responsabilit\u00e9s dans l\u2019entreprise en France comme \u00e0 l\u2019international, lesquelles impliquent n\u00e9cessairement des qualit\u00e9s humaines et des comp\u00e9tences manag\u00e9riales. C\u2019est pourquoi un 1/3 de la formation est r\u00e9serv\u00e9 \u00e0 la Formation Humaine et \u00e0 l\u2019international (langues, culture et communication, d\u00e9veloppement personnel, \u00e9thique et responsabilit\u00e9s, immersion \u00e0 l\u2019international) ainsi qu\u2019\u00e0 la connaissance de l\u2019entreprise."
+            ]
+        },
+        {
+            "tag": "internationale",
+            "patterns": [
+                "prepa internationale",
+                "comment fonctionne la prepa internationale ?",
+                "quelle est la prepa internationale?",
+                "qui peut rejoindre la prepa internationale ?"
+            ],
+            "responses": [
+                "Ouverte aux \u00e9l\u00e8ves issus de terminales G\u00e9n\u00e9rale (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique), la pr\u00e9pa int\u00e9gr\u00e9e Section Internationale propose le m\u00eame programme que la pr\u00e9pa int\u00e9gr\u00e9e scientifique avec les cours de sciences, techniques et de management 100% en anglais. Ce cursus s\u2019inscrit dans la dynamique globale fortement ouverte sur l\u2019international. Les \u00e9tudiants de la section internationale ont ainsi la possibilit\u00e9 de suivre un parcours int\u00e9gralement anglophone sur 5 ans, de leur 1re ann\u00e9e de pr\u00e9pa int\u00e9gr\u00e9e (L1) jusqu\u2019\u00e0 leur derni\u00e8re ann\u00e9e de cycle ing\u00e9nieur (M2), avec une mobilit\u00e9 \u00e0 l\u2019international possible en 3e ou 5e ann\u00e9e. Le niveau d\u2019anglais des candidats \u00e0 cette section est \u00e9valu\u00e9 en fonction de leurs notes d\u2019anglais de terminale et des r\u00e9sultats d\u2019un examen blanc de TOEIC propos\u00e9 aux \u00e9tudiants lors de leur rentr\u00e9e."
+            ]
+        },
+        {
+            "tag": "bio",
+            "patterns": [
+                "prepa bio",
+                "prepa bio et numerique",
+                "prepa bio & numerique",
+                "prepa numerique",
+                "comment fonctionne la prepa bio ?",
+                "quelle est la prepa numerique ?",
+                "qui peut rejoindre la prepa bio et numerique ?",
+                "comment fonctionne la prepa numerique ?",
+                "comment fonctionne la prepa bio & numerique ?"
+            ],
+            "responses": [
+                "Ouverte aux \u00e9l\u00e8ves issus de Terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique), la pr\u00e9pa int\u00e9gr\u00e9e Biologie et Num\u00e9rique a pour vocation d\u2019apporter un socle de connaissances fondamentales pour pouvoir acc\u00e9der, en cycle ing\u00e9nieur, aux fili\u00e8res li\u00e9es \u00e0 la Bio-Informatique. L\u2019augmentation constante du volume de donn\u00e9es biologiques, associ\u00e9e \u00e0 leur h\u00e9t\u00e9rog\u00e9n\u00e9it\u00e9 et \u00e0 la complexit\u00e9 des mod\u00e8les, imposent des capacit\u00e9s d\u2019analyse \u00e0 tr\u00e8s grande \u00e9chelle. La fili\u00e8re Biologique et Num\u00e9rique, \u00e0 l\u2019interface entre l\u2019informatique, la biologie, les math\u00e9matiques et la physique, permet de r\u00e9pondre \u00e0 cet enjeu gr\u00e2ce \u00e0 des enseignements pluridisciplinaires. Ces derniers vont doter nos \u00e9tudiants de savoirs transverses et de comp\u00e9tences polyvalentes qui leur permettront \u00e0 Bac+5 de pr\u00e9tendre \u00e0 des postes du type Data Scientist, bio-informaticien, ou encore biostatisticien."
+            ]
+        },
+        {
+            "tag": "renforcee",
+            "patterns": [
+                "prepa renforcee",
+                "comment fonctionne la prepa renforcee ?",
+                "quelle est la prepa renforcee ?",
+                "qui peut rejoindre la prepa renforcee ?"
+            ],
+            "responses": [
+                "Ouverte aux \u00e9l\u00e8ves issus de Terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 SES + Sp\u00e9cialit\u00e9 Math\u00e9matiques) et STI2D, la pr\u00e9pa int\u00e9gr\u00e9e renforc\u00e9e a \u00e9t\u00e9 con\u00e7ue en vue d\u2019harmoniser le niveau des connaissances en maths et physique avec celui des \u00e9tudiants issus de Terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique). Un certain nombre d\u2019\u00e9l\u00e8ves issus de Terminales G\u00e9n\u00e9rales (Sp\u00e9cialit\u00e9 SES + Sp\u00e9cialit\u00e9s Math\u00e9matiques) rencontrent de grandes difficult\u00e9s pour int\u00e9grer une \u00e9cole d\u2019ing\u00e9nieur du fait de leur programme de math\u00e9matiques, en premi\u00e8re et en terminale. De plus, l\u2019enseignement de la physique est inexistant. Quant aux \u00e9l\u00e8ves issus de la s\u00e9rie STI2D, leur programme de math\u00e9matiques et de physique n\u2019est pas suffisamment approfondi pour pouvoir assimiler sereinement les notions du programme d\u2019une \u00e9cole d\u2019ing\u00e9nieur. Apr\u00e8s 8 ans d\u2019expertise et des \u00e9tudiants dipl\u00f4m\u00e9s issus de ce cycle pr\u00e9paratoire, l\u2019Efrei repr\u00e9sente un gage de confiance et de r\u00e9ussite."
+            ]
+        },
+        {
+            "tag": "decalee",
+            "patterns": [
+                "prepa decalee",
+                "rentree decalee",
+                "comment fonctionne la prepa decalee ?",
+                "quelle est la prepa decalee ?",
+                "qui peut rejoindre la prepa decalee ?"
+            ],
+            "responses": [
+                "Efrei propose deux pr\u00e9pas int\u00e9gr\u00e9es en rentr\u00e9e d\u00e9cal\u00e9e uniquement sur le campus Paris. Pr\u00e9pas d\u00e9di\u00e9es aux \u00e9tudiants inscrits en 1re ann\u00e9e post-bac G\u00e9n\u00e9rale (Sp\u00e9cialit\u00e9 Math\u00e9matiques + une sp\u00e9cialit\u00e9 scientifique) anciennement bac S  \u2013 PACES (PAES), Maths Sup\u2019, Licence 1 scientifique\u2026 \u2013 Cette pr\u00e9pa int\u00e9gr\u00e9e propose une rentr\u00e9e d\u00e9cal\u00e9e en f\u00e9vrier et permet d\u2019\u00e9tudier, en un semestre intensif, le programme de 1er ann\u00e9e de pr\u00e9pa int\u00e9gr\u00e9e scientifique ou biologique et num\u00e9rique en vue de rejoindre sous condition de validation de cette ann\u00e9e, la 2e ann\u00e9e de la pr\u00e9pa d\u00e8s la rentr\u00e9e de septembre qui suit."
+            ]
+        },
+        {
+            "tag": "Bureau des \u00e9l\u00e8ves",
+            "patterns": [
+                "Quel r\u00f4le joue le Bureau des \u00e9l\u00e8ves dans l\u2019organisation de la vie \u00e9tudiante ?",
+                "C'est quoi le bde ?",
+                "C'est quoi le Bureau des \u00e9l\u00e8ves ?",
+                "bde pr\u00e9sentation"
+            ],
+            "responses": [
+                "Le bde \u2013 Bureau Des El\u00e8ves \u2013 joue un r\u00f4le majeur dans l\u2019organisation de la vie \u00e9tudiante et associative de l\u2019\u00e9cole. En effet, les membres du bde ont pour mission de repr\u00e9senter les 3300 \u00e9l\u00e8ves aupr\u00e8s de la direction, de l\u2019administration, du corps professoral ainsi qu\u2019aupr\u00e8s d\u2019organisations externes \u00e0 l\u2019\u00e9cole. Le bde est surtout charg\u00e9 de f\u00e9d\u00e9rer les 60 associations et clubs actifs du campus Efrei, de faciliter et d\u2019animer la vie des \u00e9tudiants sur le campus, notamment afin de permettre aux \u00e9l\u00e8ves de s\u2019\u00e9panouir et d\u2019\u00e9voluer dans un esprit de solidarit\u00e9 et de camaraderie. Il incite les \u00e9l\u00e8ves \u00e0 s\u2019impliquer dans le milieu associatif et les projets du campus. Chaque ann\u00e9e, le bde propose d\u00e9jeuners, PODs (POts Dinatoires), semaine de ski, soir\u00e9es \u00e9tudiantes\u2026"
+            ]
+        },
+        {
+            "tag": "Bureau des \u00e9l\u00e8ves",
+            "patterns": [
+                "C'est quand les elections du bde ?",
+                "C'est quand les elections du Bureau des \u00e9l\u00e8ves ?",
+                "Quand le bde se renouvelle ?",
+                "Quand le Bureau des \u00e9l\u00e8ves se renouvelle ?",
+                "bde elections"
+            ],
+            "responses": [
+                "Chaque ann\u00e9e en mars, un nouveau bde est \u00e9lu par les \u00e9tudiants de l\u2019\u00e9cole au terme d\u2019une semaine de campagne qui voit le campus se m\u00e9tamorphoser et rev\u00eatir les couleurs de toutes les \u00e9quipes en lice. Les diff\u00e9rentes listes bde rivalisent d\u2019ing\u00e9niosit\u00e9 et de surprises pour attirer l\u2019attention et faire en sorte que les \u00e9l\u00e8ves adh\u00e8rent \u00e0 leur programme."
+            ]
+        },
+        {
+            "tag": "associations professionnelles",
+            "patterns": [
+                "c'est quoi les associations professionnelles ?",
+                "associations professionnelles presentation"
+            ],
+            "responses": [
+                "Les associations professionnelles d\u2019Efrei jouent un r\u00f4le essentiel de passerelle entre les \u00e9l\u00e8ves et les entreprises. Faire les choix opportuns selon ses ambitions personnelles, cibler une entreprise, avoir de r\u00e9elles responsabilit\u00e9s d\u00e8s sa premi\u00e8re exp\u00e9rience, profiter du r\u00e9seau Efrei\u2026 Les associations proposent des services pr\u00e9cieux sur lesquels peuvent s\u2019appuyer les Efreiens pour lancer leur carri\u00e8re dans les meilleures conditions et ne jamais \u00eatre seuls dans leurs premiers pas professionnels."
+            ]
+        },
+        {
+            "tag": "sepefrei",
+            "patterns": [
+                "c'est quoi la sepefrei ?",
+                "sepefrei presentation",
+                "Parle moi de la sepefrei",
+                "Explique moi la sepefrei"
+            ],
+            "responses": [
+                "sepefrei, la Junior-Entreprise d\u2019Efrei Paris, propose depuis plus de 36 ans, des prestations de haute qualit\u00e9 aux entreprises dans le domaine des nouvelles technologies. Convaincue que l\u2019intelligence collective est un facteur unique de performance, l\u2019association s\u2019appuie sur les savoir-faire, le sens de l\u2019innovation et le dynamisme des \u00e9tudiants d\u2019Efrei Paris"
+            ]
+        },
+        {
+            "tag": "ogma efrei",
+            "patterns": [
+                "c'est quoi la ogma efrei ?",
+                "ogma efrei presentation",
+                "Parle moi de ogma efrei",
+                "Explique moi la ogma efrei"
+            ],
+            "responses": [
+                "Parler est une chose, bien parler en est une autre. ogma efrei offre aux \u00e9tudiants l\u2019opportunit\u00e9 de venir s\u2019essayer une fois par semaine lors de nos permanences. S\u2019essayer \u00e0 la parole, \u00e0 l\u2019\u00e9criture au cours de nos divers exercices (d\u00e9bats, improvisations, \u2026) sur des th\u00e8mes diff\u00e9rents toutes les semaines ! De quoi se cultiver, ouvrir son esprit tout en progressant dans un domaine incontestablement essentiel."
+            ]
+        },
+        {
+            "tag": "associations artistiques",
+            "patterns": [
+                "c'est quoi les associations artistiques de l'efrei ?",
+                "les associations artistiques de l'efrei presentation",
+                "Parle moi des associations artistiques de l'efrei",
+                "Explique moi les associations artistiques de l'efrei"
+            ],
+            "responses": [
+                "Les associations artistiques participent activement \u00e0 la vie du campus. En sons et/ou en images, elles renforcent les liens entre les \u00e9tudiants en diffusant des informations h\u00e9t\u00e9roclites, de la plus s\u00e9rieuse \u00e0 la plus anecdotique. Elles donnent l\u2019opportunit\u00e9 aux \u00e9l\u00e8ves qui s\u2019investissent d\u2019acqu\u00e9rir des comp\u00e9tences techniques et \u00e9ditoriales, qui peuvent s\u2019av\u00e9rer pr\u00e9cieuses."
+            ]
+        },
+        {
+            "tag": "bda",
+            "patterns": [
+                "bda",
+                "c'est quoi le bda ?",
+                "bda presentation",
+                "Parle moi du bda",
+                "Explique moi le bda"
+            ],
+            "responses": [
+                "Le bda est le Bureau Des Arts d\u2019Efrei Paris. Fra\u00eechement cr\u00e9\u00e9, il a pour vocation de soutenir les associations artistico culturelles d\u2019Efrei Paris dans leurs projets interassociatifs. Il se veut une aide et un soutien afin d\u2019offrir la possibilit\u00e9 de cr\u00e9er des projets toujours plus grands et ambitieux aux \u00e9tudiants d\u2019Efrei Paris."
+            ]
+        },
+        {
+            "tag": "eps",
+            "patterns": [
+                "eps",
+                "c'est quoi eps ?",
+                "eps presentation",
+                "Parle moi de eps",
+                "Explique moi eps",
+                "c'est quoi Efrei Picture Studio ?",
+                "Efrei Picture Studio presentation",
+                "Parle moi de Efrei Picture Studio",
+                "Explique moi Efrei Picture Studio"
+            ],
+            "responses": [
+                "Efrei Picture Studio est l\u2019association de photo et vid\u00e9o de l\u2019\u00e9cole. Toute l\u2019ann\u00e9e, nous organisons des formations, des expositions et des concours afin de partager notre passion. Nous sommes aussi pr\u00e9sents sur tous les \u00e9v\u00e9nements professionnels et associatifs du campus afin que les \u00e9l\u00e8ves gardent un souvenir de leurs passages \u00e0 Efrei Paris."
+            ]
+        },
+        {
+            "tag": "efree style",
+            "patterns": [
+                "c'est quoi efree style ?",
+                "efree style presentation",
+                "Parle moi du efree style",
+                "Explique moi efree style",
+                "efree style"
+            ],
+            "responses": [
+                "L\u2019association Efreestyle est un club du bds (Bureau Des Sports) visant \u00e0 promouvoir la pratique de la danse sous toutes ses formes au sein de l\u2019\u00e9cole d\u2019ing\u00e9nieur Efrei Paris. Ses activit\u00e9s comprennent plusieurs p\u00f4les de danses diff\u00e9rents : le rock, le hiphop, le multistyle ainsi que le modern jazz. Efreestyle participe aussi \u00e0 plusieurs repr\u00e9sentations et concours."
+            ]
+        },
+        {
+            "tag": "hifilix",
+            "patterns": [
+                "c'est quoi hifilix ?",
+                "hifilix presentation",
+                "Parle moi du hifilix",
+                "Explique moi le hifilix",
+                "hifilix"
+            ],
+            "responses": [
+                "Hifi-Lix est une association de musique proposant des prestations dans tous types d\u2019\u00e9v\u00e9nements ou de soir\u00e9es. Elle regroupe un collectif de jeunes artistes ,beatmakers et DJ ing\u00e9nieux et cr\u00e9atifs. De plus, Hifi-Lix est sp\u00e9cialis\u00e9e dans la cr\u00e9ation de sc\u00e8ne pour diff\u00e9rents types d\u2019\u00e9v\u00e8nements. L\u2019association poss\u00e8de des styles tr\u00e8s divers, en allant du monde du hip-hop au domaine de l\u2019\u00e9lectro."
+            ]
+        },
+        {
+            "tag": "live efrei",
+            "patterns": [
+                "c'est quoi live efrei ?",
+                "live efrei presentation",
+                "Parle moi du live efrei",
+                "Explique moi le live efrei",
+                "live efrei"
+            ],
+            "responses": [
+                "Le Live est l\u2019association de musique d\u2019Efrei Paris. Nous poss\u00e9dons un local, contenant des instruments et du mat\u00e9riel d\u2019enregistrement, mis \u00e0 la disposition de nos membres. Il convient parfaitement pour la pratique en solo ou en groupe, quel que soit le genre de musique. Nous offrons \u00e9galement la possibilit\u00e9 de donner ou d\u2019assister \u00e0 des cours de tous les instruments disponibles. Nous organisons diverses sc\u00e8nes et concerts par an."
+            ]
+        },
+        {
+            "tag": "the mist",
+            "patterns": [
+                "c'est quoi the mist ?",
+                "the mist presentation",
+                "Parle moi de the mist",
+                "Explique moi the mist",
+                "the mist"
+            ],
+            "responses": [
+                "the mist est une association de passionn\u00e9s de prestidigitation. Nous accueillons des d\u00e9butants comme des magiciens bien plus confirm\u00e9s. Des moments d\u2019\u00e9changes et des cours r\u00e9guliers sont organis\u00e9s afin de d\u00e9couvrir et d\u2019approfondir les diff\u00e9rents aspects de la magie : le close-up, la magie de sc\u00e8ne\u2026 Vous pourrez montrer vos plus beaux tours lors des \u00e9v\u00e9nements que nous r\u00e9alisons !"
+            ]
+        },
+        {
+            "tag": "ready o",
+            "patterns": [
+                "c'est quoi ready o ?",
+                "ready o presentation",
+                "Parle moi de ready o",
+                "Explique moi ready o",
+                "ready o"
+            ],
+            "responses": [
+                "Ready\u2019O est la radio de l\u2019\u00e9cole ! \u00c9missions et promotions sur les \u00e9v\u00e9nements et les activit\u00e9s associatives et scolaires de l\u2019\u00e9cole, interviews d\u2019\u00e9l\u00e8ves et de membres de l\u2019administration en direct, diffusion en direct des \u00e9missions sur la plateforme YouTube, goodies \u00e0 gagner gr\u00e2ce \u00e0 nos jeux concours !"
+            ]
+        },
+        {
+            "tag": "associations internationales",
+            "patterns": [
+                "c'est quoi les associations internationales de l'efrei ?",
+                "associations internationales de l'efrei presentation",
+                "Parle moi des associations internationales de l'efrei",
+                "Explique moi les associations internationales de l'efrei"
+            ],
+            "responses": [
+                "La dimension internationale fait partie de l\u2019ADN d\u2019Efrei. Assez logiquement, plusieurs associations font vivre tout au long de l\u2019ann\u00e9e l\u2019esprit d\u2019ouverture qui anime les deux \u00e9coles du groupe. Pour des \u00e9changes forc\u00e9ment passionnants, instructifs, tant du point de vue humain que des perspectives professionnelles."
+            ]
+        },
+        {
+            "tag": "asian efrei",
+            "patterns": [
+                "c'est quoi l asian efrei ?",
+                "asian efrei presentation",
+                "Parle moi d asian efrei",
+                "Explique moi de l asian efrei"
+            ],
+            "responses": [
+                "Asian\u2019Efrei est l\u2019association qui fait la promotion des cultures asiatiques au sein d\u2019Efrei et \u00e0 l\u2019ext\u00e9rieur. Des initiations aux jeux traditionnels (Koi-koi, Mah Jong, Go) aux concours de cosplay en passant par des jeux musicaux (DDR, karaok\u00e9), Asian\u2019Efrei propose de nombreuses activit\u00e9s qui permettent \u00e0 tous de d\u00e9couvrir ce que les cultures de l\u2019Est ont \u00e0 offrir. Asian\u2019Efrei organise \u00e9galement un \u00e9v\u00e9nement nocturne appel\u00e9 l\u2019Aki Party, ouvert au public, rassemblant diverses animations et conf\u00e9rences qui r\u00e9jouira les amoureux de l\u2019Asie autant que les curieux."
+            ]
+        },
+        {
+            "tag": "efrei international",
+            "patterns": [
+                "c'est quoi l efrei international?",
+                "efrei international presentation",
+                "Parle moi de efrei international",
+                "Explique moi efrei international",
+                "efrei international"
+            ],
+            "responses": [
+                "Forte de plus de 15 ans d\u2019existence, efrei international est l\u2019association des \u00e9tudiants internationaux de d\u2019Efrei. Chaque ann\u00e9e, de nombreux \u00e9tudiants venus du monde entier b\u00e9n\u00e9ficient des programmes d\u2019\u00e9tude de l\u2019\u00e9cole, cr\u00e9ant ainsi une incroyable diversit\u00e9 culturelle sur le campus. Notre association a pour but d\u2019accueillir les \u00e9l\u00e8ves internationaux et les aider \u00e0 s\u2019int\u00e9grer \u00e0 la culture fran\u00e7aise pour rendre leur s\u00e9jour inoubliable. Nous leur proposons par exemple des tutorats de fran\u00e7ais et de nombreuses activit\u00e9s en b\u00e9n\u00e9volat. Notre mission est aussi de les accompagner dans les d\u00e9marches scolaires quotidiennes et de faire rayonner l\u2019image d\u2019Efrei \u00e0 l\u2019\u00e9chelle internationale."
+            ]
+        },
+        {
+            "tag": "4esport",
+            "patterns": [
+                "c'est quoi 4esport ?",
+                "4esport presentation",
+                "Parle moi de 4esport",
+                "Explique moi 4esport",
+                "4esport"
+            ],
+            "responses": [
+                "Notre association promeut l\u2019Esport au sein d\u2019Efrei Paris. Nous accompagnons de nombreuses \u00e9quipes dans les comp\u00e9titions Universitaire et LAN sur de nombreux jeux. Champion de France Universitaire en 2019 sur League Of Legends et repr\u00e9sentant de la France aux Esport Master \u00e0 Madrid, nous comptons sur nos membres pour maintenir la passion qui nous anime et les valeurs de notre sport."
+            ]
+        },
+        {
+            "tag": "efrei poker",
+            "patterns": [
+                "c'est quoi efrei poker ?",
+                "efrei poker presentation",
+                "Parle moi de efrei poker",
+                "Explique moi de efrei poker",
+                "efrei poker"
+            ],
+            "responses": [
+                "Bienvenue \u00e0 efrei poker, l\u2019association de Poker d\u2019Efrei Paris ! Nous organisons 2 s\u00e9ances hebdomadaires les lundis et les jeudis pour les \u00e9tudiants qui souhaitent faire des parties en physique, que ce soit pour s\u2019entra\u00eener, s\u2019amuser ou faire des rencontres. Et pour les plus comp\u00e9titifs d\u2019entre vous, nous organisons \u00e9galement des tournois qui vous permettront de gagner des lots ! Si \u00e7a vous int\u00e9resse, contactez-nous sur le campus ou sur nos r\u00e9seaux sociaux !"
+            ]
+        },
+        {
+            "tag": "taverne du troll",
+            "patterns": [
+                "c'est quoi taverne du troll ?",
+                "taverne du troll presentation",
+                "Parle moi de taverne du troll",
+                "Explique moi taverne du troll"
+            ],
+            "responses": [
+                "La Taverne c\u2019est une chouette petite association dont le seul but est de te divertir. Au programme : un rendez-vous r\u00e9gulier les jeudis en MDA (et parfois m\u00eame en dehors du campus) autour de jeux de plateaux mais ce n\u2019est pas tout ! La Taverne c\u2019est aussi le lieu de rendez-vous des adeptes de jeux de r\u00f4le, jeux de figurines et jeux de cartes donc l\u2019endroit o\u00f9 \u00eatre pour organiser des groupes de joueurs !"
+            ]
+        },
+        {
+            "tag": "associations sportives",
+            "patterns": [
+                "c'est quoi les associations sportives de l efrei ?",
+                "associations sportives de l efrei presentation",
+                "Parle moi des associations sportives de l efrei",
+                "Explique moi les associations sportives de l efrei",
+                "associations sportives de l efrei"
+            ],
+            "responses": [
+                "Voile, sports collectifs, sports de combat, danse et m\u00eame parachute\u2026il y en a pour tous les go\u00fbts. Au-del\u00e0 de cette vari\u00e9t\u00e9, les associations sportives d\u2019Efrei ont pour point commun de proposer des enseignements adapt\u00e9s \u00e0 chacun, aux d\u00e9butants comme aux confirm\u00e9s, dans des ambiances conviviales et \u00e0 des conditions tr\u00e8s avantageuses. Alors que l\u2019on recherche l\u2019esprit d\u2019\u00e9quipe, les sensations fortes ou simplement un bien \u00eatre physique et mental\u2026 pas d\u2019excuses ! Il ne reste plus qu\u2019\u00e0 faire son choix."
+            ]
+        },
+        {
+            "tag": "bds",
+            "patterns": [
+                "c'est quoi le bds ?",
+                "bds presentation",
+                "Parle moi du bds",
+                "Explique moi le bds",
+                "bds",
+                "bureau des sports",
+                "c'est quoi le bureau des sports ?",
+                "bureau des sports presentation",
+                "Parle moi du bureau des sports",
+                "Explique moi le bureau des sports"
+            ],
+            "responses": [
+                "Le bds (bureau des sports) regroupe toutes les associations sportives d\u2019Efrei Paris : rugby, football, basketball, badminton, tennis, volley, natation et \u00e9checs. Chaque association met \u00e0 disposition des moyens mat\u00e9riels et techniques afin d\u2019assurer le bon d\u00e9roulement des disciplines. Le bds organise \u00e9galement de nombreux \u00e9v\u00e9nements tout au long de l\u2019ann\u00e9e dont la semaine du sport."
+            ]
+        },
+        {
+            "tag": "efight",
+            "patterns": [
+                "c'est quoi efight ?",
+                "efight presentation",
+                "Parle moi du efight",
+                "Explique moi le efight",
+                "efight"
+            ],
+            "responses": [
+                "Combattant exp\u00e9riment\u00e9 ou d\u00e9butant int\u00e9ress\u00e9 ? Besoin d\u2019entra\u00eenements ou de d\u00e9foulement ? Ne vous posez plus la question: essayez efight ! efight c\u2019est l\u2019association des sports de combat et art martiaux \u00e0 Efrei Paris qui t\u2019invite \u00e0 participer tout au long de la semaine  \u00e0 plusieurs disciplines. Au programme : Boxe anglaise, Kickboxing, Karat\u00e9, Kung-fu, Judo, Self-d\u00e9fense, Taekwondo."
+            ]
+        },
+        {
+            "tag": "hock efrei",
+            "patterns": [
+                "c'est quoi hock efrei ?",
+                "hock efrei presentation",
+                "Parle moi du hock efrei",
+                "Explique moi le hock efrei",
+                "hock efrei"
+            ],
+            "responses": [
+                "hock efrei est l\u2019\u00e9quipe de hockey sur glace d\u2019Efrei Paris ! En rejoignant la tout premi\u00e8re \u00e9quipe de hockey universitaire de France, tu pratiqueras ce sport au c\u00f4t\u00e9 d\u2019Efreiens passionn\u00e9s, d\u00e9butants comme confirm\u00e9s, se r\u00e9unissant plusieurs par semaine \u00e0 la patinoire municipale de Vitry-sur-Seine. Tu d\u00e9couvriras une vie associative palpitante \u00e0 travers plusieurs \u00e9v\u00e8nements organis\u00e9s tout le long de l\u2019ann\u00e9e."
+            ]
+        },
+        {
+            "tag": "associations \u00e9v\u00e9nementielles",
+            "patterns": [
+                "c'est quoi les associations \u00e9v\u00e9nementielles ?",
+                "associations \u00e9v\u00e9nementielles presentation",
+                "Parle moi des associations \u00e9v\u00e9nementielles",
+                "Explique moi les associations \u00e9v\u00e9nementielles",
+                "associations \u00e9v\u00e9nementielles"
+            ],
+            "responses": [
+                "Que serait Efrei sans ses associations \u00e9v\u00e9nementielles ? Sans doute une \u00e9cole tr\u00e8s diff\u00e9rente ! Ces associations jouent en effet un r\u00f4le important dans la vie des \u00e9tudiants, en facilitant la cr\u00e9ation de liens, toutes promos confondues. Avec les passages oblig\u00e9s (le week-end d\u2019int\u00e9gration, le Gala) comme dans la vie plus quotidienne gr\u00e2ce au Bureau des Etudiants, elles participent \u00e0 la qualit\u00e9 de l\u2019ambiance quotidienne et \u00e0 la constitution progressive d\u2019un r\u00e9seau solide, inscrit dans la dur\u00e9e."
+            ]
+        },
+        {
+            "tag": "efrei chefs",
+            "patterns": [
+                "c'est quoi efrei chefs ?",
+                "efrei chefs presentation",
+                "Parle moi de efrei chefs",
+                "Explique moi efrei chefs",
+                "efrei chefs"
+            ],
+            "responses": [
+                "efrei chefs, c\u2019est cuisiner pour soi lors de nos ateliers, pour les autres pendant les \u00e9v\u00e9nements inter assos comme les PODs, passer de bons moments, rire de nos \u00e9checs et pleurer de nos r\u00e9ussites !"
+            ]
+        },
+        {
+            "tag": "wei",
+            "patterns": [
+                "c'est quoi le wei ?",
+                "wei presentation",
+                "Parle moi du wei",
+                "Explique moi le wei",
+                "wei",
+                "Week-End d\u2019Int\u00e9gration"
+            ],
+            "responses": [
+                "L\u2019association wei a pour mission d\u2019accueillir les nouveaux venus afin de faciliter leur int\u00e9gration. Elle propose de nombreux \u00e9v\u00e9nements tout au long de l\u2019ann\u00e9e : petit d\u00e9jeuner, rallye culturel, journ\u00e9e Sidaction, barbecue, soir\u00e9es, activit\u00e9s sportives, la d\u00e9couverte des associations \u00e9tudiantes et surtout le fameux wei (Week-End d\u2019Int\u00e9gration)."
+            ]
+        },
+        {
+            "tag": "associations technologiques",
+            "patterns": [
+                "c'est quoi les associations technologiques de l efrei ?",
+                "les associations technologiques de l efrei presentation",
+                "Parle moi des associations technologiques de l efrei",
+                "Explique moi les associations technologiques de l efrei",
+                "associations technologiques"
+            ],
+            "responses": [
+                "Les associations technologiques s\u2019inscrivent dans le prolongement naturel de l\u2019enseignement dispens\u00e9 par le groupe Efrei. En \u00e9lectronique, informatique ou m\u00e9canique, elles sont des lieux f\u00e9conds d\u2019\u00e9changes entre passionn\u00e9s, d\u2019approfondissements des connaissances techniques et d\u2019innovations. A travers le d\u00e9veloppement en groupe de projets concrets, des formations pointues et des conf\u00e9rences avec les meilleurs sp\u00e9cialistes, elles jouent souvent un r\u00f4le d\u2019acc\u00e9l\u00e9rateur dans le d\u00e9but de carri\u00e8re des jeunes ing\u00e9nieurs."
+            ]
+        },
+        {
+            "tag": "associations humanitaires",
+            "patterns": [
+                "c'est quoi les associations humanitaires de l efrei ?",
+                "associations humanitaires de l efrei presentation",
+                "Parle moi des associations humanitaires de l efrei",
+                "Explique moi les associations humanitaires de l efrei",
+                "associations humanitaires"
+            ],
+            "responses": [
+                "L\u2019informatique et le num\u00e9rique sont omnipr\u00e9sents dans nos soci\u00e9t\u00e9s du XXI\u00e8me. Cette r\u00e9alit\u00e9 bien connue est un formidable facteur de d\u00e9veloppement et d\u2019innovations, mais elle peut aussi parfois accro\u00eetre l\u2019isolement des plus faibles. A la mani\u00e8re de l\u2019illettrisme, la m\u00e9connaissance ou l\u2019absence d\u2019acc\u00e8s aux nouvelles technologies est source d\u2019exclusion. Plusieurs associations mobilisent donc l\u2019expertise des \u00e9l\u00e8ves pour s\u2019attaquer aux d\u00e9g\u00e2ts que peut provoquer le num\u00e9rique tant du point de vue social, qu\u2019\u00e9conomique ou \u00e9cologique."
+            ]
+        },
+        {
+            "tag": "MajeureSoftware_Engineering_description",
+            "patterns": [
+                "Majeure Software Engineering description"
+            ],
+            "responses": [
+                "Entierement enseignee en anglais, la majeure Software Engineering forme des ingenieurs logiciels de haut niveau. Generaliste et dote d\u2019une solide culture informatique (developpement, securite, qualite, cloud, data\u2026) l\u2019ingenieur logiciel est un acteur majeur de la transformation digitale, et ce, quel que soit le secteur d\u2019activite : automobile, aeronautique, defense, banque, telecommunications, etc.."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering presentation",
+            "patterns": [
+                "Majeure Software Engineering presentation"
+            ],
+            "responses": [
+                "La majeure Software Engineering d\u2019Efrei offre aux futurs ingenieurs un cadre ideal pour developper une expertise technique et manageriale en genie logiciel."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering presentation",
+            "patterns": [
+                "Majeure Software Engineering presentation"
+            ],
+            "responses": [
+                "Ce programme vise a repondre aux defis croissants auxquels font face les ingenieurs du logiciel. Ainsi nos etudiants acquierent des bases solides en theorie et en pratique sur tout ce qui touche aux differentes phases du cycle de vie du logiciel."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering_equipe",
+            "patterns": [
+                "Majeure Software Engineering equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de la Majeure : Jacques Andre Augustin Ingenieur, DESS Informatique, Mastere specialise en base de donnees et integration de systemes"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering_debouche",
+            "patterns": [
+                "Majeure Software Engineering debouche"
+            ],
+            "responses": [
+                "Comprendre un besoin metierConcevoir et realiser une solution logicielle conforme a ce besoin et respectant les standards de qualite les plus exigeantsMa\u00eetriser toutes les phases du cycle de vie du logicielCollaborer au sein d\u2019une equipe de fa\u00e7on constructive, dynamique et bienveillanteCommuniquer efficacement en sachant adapter et cibler son message"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering_debouche",
+            "patterns": [
+                "Majeure Software Engineering debouche"
+            ],
+            "responses": [
+                "Exemples de metiers possibles :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSoftware_Engineering_debouche",
+            "patterns": [
+                "Majeure Software Engineering debouche"
+            ],
+            "responses": [
+                "Concepteur-DeveloppeurIngenieur DevOpsDeveloppeur Full-stackConsultant en systemes d\u2019informationScrum MasterIngenieur R&D"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_SI_et_Gouvernance presentation",
+            "patterns": [
+                "Majeure Cybersecurite SI et Gouvernance presentation"
+            ],
+            "responses": [
+                "La cybersecurite consiste a evaluer et se defendre des risques entrants et sortants d\u2019un systeme informatique en considerant toutes ses briques softwares et hardwares technologiques. Certes, une solution informatique est utilisee pour ameliorer ou fournir de nouveaux services, mais elle donne par la m\u00eame occasion aux agresseurs potentiels, animes de motivations diverses, de nouvelles possibilites pour acceder, consulter, modifier ou endommager les informations sensibles. Dans le cadre de cette majeure en cybersecurite, les eleves ingenieurs acquerront une expertise et specialisation en Cybersecurite SI & Gouvernance (CSIG)."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_SI_et_Gouvernance_equipe",
+            "patterns": [
+                "Majeure Cybersecurite SI et Gouvernance equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Max Agueh, Responsable du p\u00f4le SRSE"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_SI_et_Gouvernance_debouche",
+            "patterns": [
+                "Majeure Cybersecurite SI et Gouvernance debouche"
+            ],
+            "responses": [
+                "Competences visees &Debouches"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_SI_et_Gouvernance_debouche",
+            "patterns": [
+                "Majeure Cybersecurite SI et Gouvernance debouche"
+            ],
+            "responses": [
+                "Securisation des SI pour soutenir les objectifs de la politique de securite de l\u2019entreprise\u00c9valuer les risques du SI rencontres par une organisation lies a l\u2019impact sur le processus metiersGerer de maniere securisee le developpement et l\u2019evolution du SIDefinir et mettre en \u0153uvre le plan de continuite de service du SI pour une entreprise si attaque subieExemples de metiers possibles :Expert en Securite des SIResponsable Securite des SI (RSSI)Analyste / consultant en securiteArchitecte en cybersecurite"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_infrastructure_et_logiciels presentation",
+            "patterns": [
+                "Majeure Cybersecurite infrastructure et logiciels presentation"
+            ],
+            "responses": [
+                "La cybersecurite consiste a evaluer et se defendre des risques entrants et sortants d\u2019un systeme informatique en considerant toutes ses briques softwares et hardwares technologiques. Certes, une solution informatique est utilisee pour ameliorer ou fournir de nouveaux services, mais elle donne par la m\u00eame occasion aux agresseurs potentiels, animes de motivations diverses, de nouvelles possibilites pour acceder, consulter, modifier ou endommager les informations sensibles. Dans le cadre de cette majeure en cybersecurite, les eleves ingenieurs acquerront une expertise et specialisation en Cybersecurite Infrastructure & Logiciels (CIL)."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_infrastructure_et_logiciels_equipe",
+            "patterns": [
+                "Majeure Cybersecurite infrastructure et logiciels equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Max Agueh, Responsable du p\u00f4le SRSE"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_infrastructure_et_logiciels_debouche",
+            "patterns": [
+                "Majeure Cybersecurite infrastructure et logiciels debouche"
+            ],
+            "responses": [
+                "Competences visees &Debouches"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureCybersecurite_infrastructure_et_logiciels_debouche",
+            "patterns": [
+                "Majeure Cybersecurite infrastructure et logiciels debouche"
+            ],
+            "responses": [
+                "Concevoir, appliquer et maintenir des infrastructures pour soutenir les objectifs de la politique de securite de l\u2019entreprise\u00c9valuer les risques de securite informatique rencontres par une organisation liee a l\u2019infrastructureGerer de maniere securisee le developpement et l\u2019evolution de l\u2019infrastructureDefinir et mettre en \u0153uvre le plan de continuite de service de l\u2019infrastructure pour une entreprise si attaque subieExemples de metiers possibles :Expert en test d\u2019intrusionPost auditeur (Forensic criminaliste, Analyse de compromission)Developpeur en cybersecuriteArchitecte en cybersecuriteIngenieur conseil en cybersecurite."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBig_Data_and_Artificial_Intelligence_description",
+            "patterns": [
+                "Majeure Big Data and Artificial Intelligence description"
+            ],
+            "responses": [
+                "Entierement enseignee en anglais, la majeure \u00ab\u00a0Data & Artificial Intelligence\u00a0\u00bb prepare le futur ingenieur a identifier les besoins et problematiques metier lies a l\u2019exploitation des donnees massives, a construire des outils d\u2019analyse pour collecter ces donnees, structurees ou non structurees, a organiser et synthetiser les sources de donnees sous forme de resultats exploitables pour modeliser et anticiper de nouveaux comportements ou usages, a integrer les enjeux reglementaires lies a l\u2019exploitation des donnees personnelles.Elle comporte les enseignements necessaires en statistiques, en informatique."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBig_Data_and_Artificial_Intelligence presentation",
+            "patterns": [
+                "Majeure Big Data and Artificial Intelligence presentation"
+            ],
+            "responses": [
+                "La production de donnees numeriques ne cesse pas d\u2019augmenter de fa\u00e7on exponentielle ces dernieres annees. La Data est ainsi appelee l\u2019or noir de 21eme siecle, car couplee avec l\u2019intelligence artificielle, elles revolutionnent la sante, le business, l\u2019urbanisme, la securite et beaucoup d\u2019autres secteurs."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBig_Data_and_Artificial_Intelligence_equipe",
+            "patterns": [
+                "Majeure Big Data and Artificial Intelligence equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Salim Nahle, Responsable du p\u00f4le Data & Intelligence Artificielle et Ingenieur-Docteur en Informatique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBig_Data_and_Artificial_Intelligence_debouche",
+            "patterns": [
+                "Majeure Big Data and Artificial Intelligence debouche"
+            ],
+            "responses": [
+                "Les enseignements de la majeure s\u2019articulent particulierement autour des mathematiques, de l\u2019intelligence artificielle et plus specifiquement le \u2018Machine Learning\u2019 et le \u2018Deep Learning sans oublier les regulations en vigueur et l\u2019ethique. Ils preparent le futur ingenieur a :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBig_Data_and_Artificial_Intelligence_debouche",
+            "patterns": [
+                "Majeure Big Data and Artificial Intelligence debouche"
+            ],
+            "responses": [
+                "Construire des outils d\u2019analyse et de traitement de donnees structurees et non structureesOrganiser et synthetiser les sources de donnees sous forme de resultats exploitablesIntegrer les enjeux reglementaires lies a l\u2019exploitation des donnees personnellesImplementer, deployer et industrialiser des solutions d\u2019intelligence artificielle pour modeliser et anticiper de nouveaux comportements et usages"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureData_Engineering_description",
+            "patterns": [
+                "Majeure Data Engineering description"
+            ],
+            "responses": [
+                "Entierement enseignee en anglais, la majeure \u2018Data Engineering\u2019 prepare le futur ingenieur a :\u00a0identifier les besoins et problematiques metier lies a l\u2019exploitation des donnees massivesconcevoir et creer des architectures, des pipelines, et des infrastructures permettant de collecter, preparer et transformer les donnees dans des formats exploitablesgerer la scalabilite des infrastructures Big Dataassurer l\u2019integrite de donnees et publier des API Elle comporte les enseignements necessaires en informatique et en ingenierie de donneesElle comporte les enseignements necessaires en informatique et en ingenierie de donnees"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureData_Engineering presentation",
+            "patterns": [
+                "Majeure Data Engineering presentation"
+            ],
+            "responses": [
+                "La production de donnees numeriques ne cesse pas d\u2019augmenter de fa\u00e7on exponentielle ces dernieres annees. La Data est ainsi appelee l\u2019or noir de 21eme siecle, car couplee avec l\u2019intelligence artificielle, elles revolutionnent la sante, le business, l\u2019urbanisme, la securite et beaucoup d\u2019autres secteurs."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureData_Engineering_equipe",
+            "patterns": [
+                "Majeure Data Engineering equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Salim Nahle, Responsable du p\u00f4le Data & Intelligence Artificielle et Ingenieur-Docteur en Informatique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureData_Engineering_debouche",
+            "patterns": [
+                "Majeure Data Engineering debouche"
+            ],
+            "responses": [
+                "Ils preparent le futur ingenieur a :Construire des outils d\u2019analyse et de traitement de donnees structurees et non structureesOrganiser et synthetiser les sources de donnees sous forme de resultats exploitablesIntegrer les enjeux reglementaires lies a l\u2019exploitation des donnees personnellesImplementer, deployer et industrialiser des solutions d\u2019intelligence artificielle pour modeliser et anticiper de nouveaux comportements et usage"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureNetwork_&_Cloud_Infrastructure_description",
+            "patterns": [
+                "Majeure Network & Cloud Infrastructure description"
+            ],
+            "responses": [
+                "Entierement enseignee en anglais, la specialite Network & Cloud Infrastructure, avec ces deux options Network & Cloud Infrastructure et Network & Cloud Security, forme des ingenieurs dotes d\u2019une vision complete, theorique et pratique des reseaux d\u2019entreprises : architecture, mise en production, suivi au quotidien, securite, etude des infrastructures, leurs evolutions recentes pour le cloud computing et la virtualisation et leur securisation."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureNetwork_&_Cloud_Infrastructure presentation",
+            "patterns": [
+                "Majeure Network & Cloud Infrastructure presentation"
+            ],
+            "responses": [
+                "La fiabilite des reseaux informatiques, les puissances de calcul et la capacite de stockage permettent desormais d\u2019externaliser et de securiser les machines et les services :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureNetwork_&_Cloud_Infrastructure_equipe",
+            "patterns": [
+                "Majeure Network & Cloud Infrastructure equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de la Majeure : Yessin Neggaz, Docteur en Informatique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureNetwork_&_Cloud_Infrastructure_debouche",
+            "patterns": [
+                "Majeure Network & Cloud Infrastructure debouche"
+            ],
+            "responses": [
+                "La specialite Network & Cloud Infrastructure, avec ces deux options Network & Cloud Infrastructure et Network & Cloud Security, forme des ingenieurs dotes d\u2019une vision complete, theorique et pratique des reseaux d\u2019entreprises : architecture, mise en production, suivi au quotidien, securite, etude des infrastructures, leurs evolutions recentes pour le cloud computing et la virtualisation et leur securisation."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureIT_for_Finance_description",
+            "patterns": [
+                "Majeure IT for Finance description"
+            ],
+            "responses": [
+                "Entierement dispensee en anglais, la majeure Information Technology for Finance apporte une formation de haut niveau en vue\u00a0de repondre aux problematiques specifiques au secteur de la finance et developper des solutions logicielles adaptees.Elle forme aux outils mathematiques necessaires pour apprehender la modelisation des marches financiers, l\u2019analyse des risques et permet une ouverture aux aspects economiques necessaires pour la comprehension du domaine de la finance."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureIT_for_Finance presentation",
+            "patterns": [
+                "Majeure IT for Finance presentation"
+            ],
+            "responses": [
+                "L\u2019ingenieur de Computational Finance travaille sur la comprehension et la resolution de problemes numeriques sur les marches financiers, ainsi qu\u2019a la conception de solutions ethiques durables pour les marches financiers internationaux."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureIT_for_Finance_equipe",
+            "patterns": [
+                "Majeure IT for Finance equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Johannes Gomolka, Docteur en Quantitative Finance"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureIT_for_Finance_debouche",
+            "patterns": [
+                "Majeure IT for Finance debouche"
+            ],
+            "responses": [
+                "Competences visees &Debouches"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureIT_for_Finance_debouche",
+            "patterns": [
+                "Majeure IT for Finance debouche"
+            ],
+            "responses": [
+                "Analyse des donnees historiques empiriques, des profils de risque et des statistiques ;Developpement et application d\u2019algorithmes pour l\u2019analyse des donnees en temps reel et la prevision ;Analyser les operations informatiques bancaires et trouver des solutions techniques dans le trading ;Construction d\u2019une infrastructure informatique pour les operations de trading ;Developper des concepts et des innovations durables et ethiques pour une FinTECH.Exemples de metiers possibles :Analyste quantitatifTrader AlgorithmiqueSupport Analyste / Developpeur de logiciels dans le tradingGestionnaire d\u2019actifsManager risques / conformite des gestionnaires d\u2019actifsProgrammeur FinTech Start-UpSpecialiste infrastructureEntrepreneur Crypto"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique_description",
+            "patterns": [
+                "Majeure Bio-informatique description"
+            ],
+            "responses": [
+                "En partenariat avec le Cnam, la majeure Bio Informatique\u00a0 se situe au carrefour de l\u2019informatique, les statistiques (Big Data), de la biologie et de la medecine. Elle est accessible apres la prepa integree Bio et numerique ou un premier double cursus en biologie et informatique."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique presentation",
+            "patterns": [
+                "Majeure Bio-informatique presentation"
+            ],
+            "responses": [
+                "La Bio-Informatique s\u2019est beaucoup developpee ces dernieres annees pour repondre au besoin de traitement des donnees issues des nouvelles biotechnologies (donnees multiomics). Avec la diversite de ces technologies et la massification des donnees a traiter, elle est devenue une discipline a part entiere, au carrefour de l\u2019informatique, des statistiques (Big Data), de la Biologie et de la medecine."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique_equipe",
+            "patterns": [
+                "Majeure Bio-informatique equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de Majeure : Mano Joseph Mathew, Docteur en Bio-Informatique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique_debouche",
+            "patterns": [
+                "Majeure Bio-informatique debouche"
+            ],
+            "responses": [
+                "Appliquer les methodes d\u2019apprentissage automatique aux donnees medicalesImplementer les solutions de traitement, de stockage et d\u2019analyse de donnees NGSCreer les visualisations de donnees pour communiquer les resultats d\u2019analysesComprendre differentes etapes des projets Bio- Informatique et la valeur apportee"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique_debouche",
+            "patterns": [
+                "Majeure Bio-informatique debouche"
+            ],
+            "responses": [
+                "Exemples de metiers possibles :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureBio-informatique_debouche",
+            "patterns": [
+                "Majeure Bio-informatique debouche"
+            ],
+            "responses": [
+                "Bio-informaticienBiostatisticienData Scientist / Computational BiologistChef de projet Bio-InformatiqueIngenieur R&DIngenieur Bio-informatiqueData-manager Clinique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones_description",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones description"
+            ],
+            "responses": [
+                "La majeure Systemes robotiques et Drones forme des ingenieurs capables d\u2019etudier et de concevoir des systemes autonomes avec une intelligence embarquee : des automates pouvant se mouvoir au sol et permettant d\u2019apporter une aide a l\u2019humain sous differentes formes ainsi que la conception d\u2019objets volants."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones presentation",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones presentation"
+            ],
+            "responses": [
+                "Cette majeure forme des ingenieurs capables de concevoir des"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones presentation",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones presentation"
+            ],
+            "responses": [
+                " robots interactifs et des drones,"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones presentation",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones presentation"
+            ],
+            "responses": [
+                " plus particulierement, nous mettons l\u2019accent sur les aspects intelligence embarquee temps reel en reponse a des environnements dynamiques. Cette formation pluridisciplinaire allie"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones presentation",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones presentation"
+            ],
+            "responses": [
+                " l\u2019electronique (dans ses aspects materiels et logiciels), la robotique, le traitement du signal (image/parole)."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones_equipe",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de la Majeure : Laurie Conteville,Docteur en physique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones_debouche",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones debouche"
+            ],
+            "responses": [
+                "Competences visees &Debouches"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureSyst\u00e8mes_robotiques_&_Drones_debouche",
+            "patterns": [
+                "Majeure Syst\u00e8mes robotiques & Drones debouche"
+            ],
+            "responses": [
+                "Analyser et traiter des images, des signaux, afin d\u2019etablir un diagnostic (localisation) et de commander le systeme (navigation)Modeliser, estimer et commander des systemes dynamiques complexesMettre en oeuvre des strategies de navigation et de localisationIntegrer des exigences temps reel embarque dans les algorithmes de traitementIntegrer les systemes de pilotage sur un objet connecte (terrestre ou volant)Mettre en oeuvre des methodes d\u2019apprentissage et de raisonnement pour resoudre des problemes complexes.Exemples de metiers possibles :Ingenieur contr\u00f4le et commandeIngenieur robotiqueIngenieur conception et simulation electroniqueIngenieur vison robotiqueIngenieur developpement systemes embarques"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureTransports_intelligents_description",
+            "patterns": [
+                "Majeure Transports intelligents description"
+            ],
+            "responses": [
+                "La majeure Transports intelligents est dediee a l\u2019etude des equipements electroniques, electriques et informatiques integrant les systemes embarques qui composent les systemes de transports autonomes."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureTransports_intelligents presentation",
+            "patterns": [
+                "Majeure Transports intelligents presentation"
+            ],
+            "responses": [
+                "La majeure Transports intelligents est dediee a l\u2019etude des Systemes embarques (equipements electroniques, electriques et informatiques) composant les systemes de transports autonomes (aeronefs, voitures autonomes, systemes ferroviaires autonomes, dr\u00f4nes, etc) et aidant a leur pilotage. \u00c0 l\u2019heure o\u00f9 les industries automobile, aeronautique et spatiale font face au defi incontournable de la transition ecologique, les ingenieurs \u00ab Transports Intelligents \u00bb ont vocation a preparer les prochaines ruptures technologiques."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureTransports_intelligents_equipe",
+            "patterns": [
+                "Majeure Transports intelligents equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de la Majeure : Ali Chamas Al Ghouwayel, Ingenieur-Docteur en Telecommunications"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureTransports_intelligents_debouche",
+            "patterns": [
+                "Majeure Transports intelligents debouche"
+            ],
+            "responses": [
+                "Competences visees &Debouches"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureTransports_intelligents_debouche",
+            "patterns": [
+                "Majeure Transports intelligents debouche"
+            ],
+            "responses": [
+                "Concevoir et mettre en \u0153uvre des systemes embarques tant au niveau hardware que software et en assurer la maintenabilite et leurs avanceesConna\u00eetre les techniques de traitement du signal et les differents systemes de telecommunicationsMa\u00eetriser les systemes temps reels a travers toutes les composantes : electronique, informatique, automatique, telecommunications, reseaux, securite, Big Data, calculateurs\u2026Maitriser les techniques de Perception et Navigation des Vehicule Autonomes\u00c9valuer en permanence les performances.Exemples de metiers possibles :Ingenieurs systemes embarquesIngenieur qualite, logiciel aeronautique et conduite autonomeArchitecte avioniqueIngenieur surete de fonctionnementIngenieur Perception-Connectivite Vehicule AutonomesIngenieur securite, chef de projet, architecte calculateur specifique, developpement de systemes de securite, consultant systemes embarquesChef de projet dans les secteurs des transports intelligents et des telecommunications."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle_description",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle description"
+            ],
+            "responses": [
+                "La Majeure Imagerie et Realite Virtuelle forme des ingenieurs capables de travailler sur des systemes complexes bases sur l\u2019imagerie numerique, que ce soit pour effectuer des traitements a partir d\u2019images existantes, pour creer des scenes virtuelles, voire m\u00eame associer reel et virtuel pour la realite augmentee."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle presentation",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle presentation"
+            ],
+            "responses": [
+                "L\u2019utilisation des univers virtuels : "
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle presentation",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle presentation"
+            ],
+            "responses": [
+                "un domaine en plein developpement"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle presentation",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle presentation"
+            ],
+            "responses": [
+                ". Les secteurs d\u2019activite utilisant la simulation numerique et la realite virtuelle sont de plus en plus nombreux :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle_equipe",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle equipe", " responsable de la majeure"
+            ],
+            "responses": [
+                "Responsable de la majeure : Nicolas Flasque, Ingenieur-Docteur en Informatique"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle_debouche",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle debouche"
+            ],
+            "responses": [
+                "Ma\u00eetriser les bases mathematiques de la vision artificielle et de la 3D.Mettre en \u0153uvre des outils de traitement et de synthese d\u2019images.\u00catre operationnel sur des outils et technologies pour la 3D.Conna\u00eetre les applications et le marche de la realite virtuelle et augmentee."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle_debouche",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle debouche"
+            ],
+            "responses": [
+                "Debouches possibles :"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "MajeureImagerie_et_Realite_Virtuelle_debouche",
+            "patterns": [
+                "Majeure Imagerie et Realite Virtuelle debouche"
+            ],
+            "responses": [
+                "Ingenieur en 3D pour la simulation numeriqueIngenieur PLM (Product Lifecycle Management)Ingenieur R&D en simulation et realite virtuelleIngenieur Jeux video"
+            ],
+            "context": ""
         }
-   ]
+    ]
 }
