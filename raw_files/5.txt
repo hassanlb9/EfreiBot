@@ -1,0 +1,34 @@
+
+Majeure 
+                                                        Data Engineering
+                        
+DESCRIPTION : Entièrement enseignée en anglais, la majeure ‘Data Engineering’ prépare le futur ingénieur à :
+
+ identifier les besoins et problématiques métier liés à l’exploitation des données massives
+concevoir et créer des architectures, des pipelines, et des infrastructures permettant de collecter, préparer et transformer les données dans des formats exploitables
+gérer la scalabilité des infrastructures Big Data
+assurer l’intégrité de données et publier des API Elle comporte les enseignements nécessaires en informatique et en ingénierie de données
+
+Elle comporte les enseignements nécessaires en informatique et en ingénierie de données
+
+PRESENTATION : 
+La production de données numériques ne cesse pas d’augmenter de façon exponentielle ces dernières années. La Data est ainsi appelée l’or noir de 21eme siècle, car couplée avec l’intelligence artificielle, elles révolutionnent la santé, le business, l’urbanisme, la sécurité et beaucoup d’autres secteurs.
+La majeure ‘Data Engineering’ forme des ingénieurs capables d’accompagner les entreprises dans leur transformation ‘data-driven’ et ceci en apportant les compétences nécessaires pour pouvoir collecter, stocker, analyser, transformer et protéger ces masses de données multiples et diverses.
+Les enseignements de la majeure s’articulent particulièrement autour des mathématiques, de l’intelligence artificielle et plus spécifiquement le ‘Machine Learning’ et le ‘Deep Learning sans oublier les régulations en vigueur et l’éthique.
+
+EQUIPE : 
+Responsable de Majeure : Salim Nahle, Responsable du pôle Data & Intelligence Artificielle et Ingénieur-Docteur en Informatique
+
+DEBOUCHES : 
+
+
+
+Ils préparent le futur ingénieur à :
+
+Construire des outils d’analyse et de traitement de données structurées et non structurées
+Organiser et synthétiser les sources de données sous forme de résultats exploitables
+Intégrer les enjeux réglementaires liés à l’exploitation des données personnelles
+Implémenter, déployer et industrialiser des solutions d’intelligence artificielle pour modéliser et anticiper de nouveaux comportements et usage
+
+
+

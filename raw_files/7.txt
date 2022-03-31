@@ -1,0 +1,48 @@
+
+Majeure 
+                                                        IT for Finance
+                        
+DESCRIPTION : Entièrement dispensée en anglais, la majeure Information Technology for Finance apporte une formation de haut niveau en vue de répondre aux problématiques spécifiques au secteur de la finance et développer des solutions logicielles adaptées.
+Elle forme aux outils mathématiques nécessaires pour appréhender la modélisation des marchés financiers, l’analyse des risques et permet une ouverture aux aspects économiques nécessaires pour la compréhension du domaine de la finance.
+
+PRESENTATION : 
+L’ingénieur de Computational Finance travaille sur la compréhension et la résolution de problèmes numériques sur les marchés financiers, ainsi qu’à la conception de solutions éthiques durables pour les marchés financiers internationaux.
+
+Comprendre les fonctions et les mécanismes des marchés financiers, la terminologie utilisée et leur infrastructure technique.
+Analyse de données quantitatives et empiriques sur les marchés financiers, des données empiriques historiques à la surveillance en temps réel, en passant par l’application d’algorithmes de prévision.
+Développement de solutions haut de gamme dans différents langages de programmation, en particulier C++, Python et langages de programmation scientifique.
+
+
+EQUIPE : 
+Responsable de Majeure : Johannes Gomolka, Docteur en Quantitative Finance
+
+DEBOUCHES : 
+
+
+
+Compétences visées &
+Débouchés
+
+
+
+
+
+Analyse des données historiques empiriques, des profils de risque et des statistiques ;
+Développement et application d’algorithmes pour l’analyse des données en temps réel et la prévision ;
+Analyser les opérations informatiques bancaires et trouver des solutions techniques dans le trading ;
+Construction d’une infrastructure informatique pour les opérations de trading ;
+Développer des concepts et des innovations durables et ethiques pour une FinTECH.
+
+Exemples de métiers possibles :
+
+Analyste quantitatif
+Trader Algorithmique
+Support Analyste / Développeur de logiciels dans le trading
+Gestionnaire d’actifs
+Manager risques / conformité des gestionnaires d’actifs
+Programmeur FinTech Start-Up
+Spécialiste infrastructure
+Entrepreneur Crypto
+
+
+

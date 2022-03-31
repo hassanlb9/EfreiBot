@@ -1,0 +1,42 @@
+
+Majeure 
+                                                        Systèmes robotiques & Drones
+                        
+DESCRIPTION : La majeure Systèmes robotiques et Drones forme des ingénieurs capables d’étudier et de concevoir des systèmes autonomes avec une intelligence embarquée : des automates pouvant se mouvoir au sol et permettant d’apporter une aide à l’humain sous différentes formes ainsi que la conception d’objets volants.
+
+PRESENTATION : 
+Cette majeure forme des ingénieurs capables de concevoir des robots interactifs et des drones, plus particulièrement, nous mettons l’accent sur les aspects intelligence embarquée temps réel en réponse à des environnements dynamiques. Cette formation pluridisciplinaire allie l’électronique (dans ses aspects matériels et logiciels), la robotique, le traitement du signal (image/parole).
+Ces systèmes sont destinés aux équipements tant de grande consommation qu’industriels, et trouvent leurs applications dans des domaines tels que le secteur de la e-santé (notamment l’aide à la personne), la sécurité, la surveillance de sites civils et militaires, la défense, le transport, le commerce, etc.
+
+EQUIPE : 
+Responsable de la Majeure : Laurie Conteville,
+Docteur en physique
+
+DEBOUCHES : 
+
+
+
+Compétences visées &
+Débouchés
+
+
+
+
+
+Analyser et traiter des images, des signaux, afin d’établir un diagnostic (localisation) et de commander le système (navigation)
+Modéliser, estimer et commander des systèmes dynamiques complexes
+Mettre en oeuvre des stratégies de navigation et de localisation
+Intégrer des exigences temps réel embarqué dans les algorithmes de traitement
+Intégrer les systèmes de pilotage sur un objet connecté (terrestre ou volant)
+Mettre en oeuvre des méthodes d’apprentissage et de raisonnement pour résoudre des problèmes complexes.
+
+Exemples de métiers possibles :
+
+Ingénieur contrôle et commande
+Ingénieur robotique
+Ingénieur conception et simulation électronique
+Ingénieur vison robotique
+Ingénieur développement systèmes embarqués
+
+
+

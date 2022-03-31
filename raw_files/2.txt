@@ -1,0 +1,43 @@
+
+Majeure 
+                                                        Cybersécurité SI et Gouvernance
+                        
+DESCRIPTION : 
+PRESENTATION : 
+La cybersécurité consiste à évaluer et se défendre des risques entrants et sortants d’un système informatique en considérant toutes ses briques softwares et hardwares technologiques. Certes, une solution informatique est utilisée pour améliorer ou fournir de nouveaux services, mais elle donne par la même occasion aux agresseurs potentiels, animés de motivations diverses, de nouvelles possibilités pour accéder, consulter, modifier ou endommager les informations sensibles. Dans le cadre de cette majeure en cybersécurité, les élèves ingénieurs acquerront une expertise et spécialisation en Cybersécurité SI & Gouvernance (CSIG).
+L’ingénieur en CSIG saura :
+
+Auditer le système d’information
+Sécuriser le système d’information
+Proposer, tester, valider et déployer des nouvelles solutions techniques pour sécuriser l’infrastructure
+Définir les plans de continuité d’activité si attaque du système d’information.
+
+
+EQUIPE : 
+Responsable de Majeure : Max Agueh, Responsable du pôle SRSE
+
+DEBOUCHES : 
+
+
+
+Compétences visées &
+Débouchés
+
+
+
+
+
+Sécurisation des SI pour soutenir les objectifs de la politique de sécurité de l’entreprise
+Évaluer les risques du SI rencontrés par une organisation liés à l’impact sur le processus métiers
+Gérer de manière sécurisée le développement et l’évolution du SI
+Définir et mettre en œuvre le plan de continuité de service du SI pour une entreprise si attaque subie
+
+Exemples de métiers possibles :
+
+Expert en Sécurité des SI
+Responsable Sécurité des SI (RSSI)
+Analyste / consultant en sécurité
+Architecte en cybersécurité
+
+
+

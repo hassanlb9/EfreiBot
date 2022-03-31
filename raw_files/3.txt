@@ -1,0 +1,44 @@
+
+Majeure 
+                                                        Cybersécurité infrastructure et logiciels
+                        
+DESCRIPTION : 
+PRESENTATION : 
+La cybersécurité consiste à évaluer et se défendre des risques entrants et sortants d’un système informatique en considérant toutes ses briques softwares et hardwares technologiques. Certes, une solution informatique est utilisée pour améliorer ou fournir de nouveaux services, mais elle donne par la même occasion aux agresseurs potentiels, animés de motivations diverses, de nouvelles possibilités pour accéder, consulter, modifier ou endommager les informations sensibles. Dans le cadre de cette majeure en cybersécurité, les élèves ingénieurs acquerront une expertise et spécialisation en Cybersécurité Infrastructure & Logiciels (CIL).
+L’ingénieur en CIL saura :
+
+Auditer l’infrastructure des solutions existantes
+Concevoir et/ou améliorer une architecture sécurisée de l’infrastructure
+Proposer, tester, valider et déployer des nouvelles solutions techniques pour sécuriser l’infrastructure
+Définir les plans de continuité d’activité si défaillance de sécurité pour contrer les attaques.
+
+
+EQUIPE : 
+Responsable de Majeure : Max Agueh, Responsable du pôle SRSE
+
+DEBOUCHES : 
+
+
+
+Compétences visées &
+Débouchés
+
+
+
+
+
+Concevoir, appliquer et maintenir des infrastructures pour soutenir les objectifs de la politique de sécurité de l’entreprise
+Évaluer les risques de sécurité informatique rencontrés par une organisation liée à l’infrastructure
+Gérer de manière sécurisée le développement et l’évolution de l’infrastructure
+Définir et mettre en œuvre le plan de continuité de service de l’infrastructure pour une entreprise si attaque subie
+
+Exemples de métiers possibles :
+
+Expert en test d’intrusion
+Post auditeur (Forensic criminaliste, Analyse de compromission)
+Développeur en cybersécurité
+Architecte en cybersécurité
+Ingénieur conseil en cybersécurité.
+
+
+

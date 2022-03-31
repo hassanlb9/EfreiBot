@@ -1,0 +1,32 @@
+
+Majeure 
+                                                        Bio-informatique
+                        
+DESCRIPTION : En partenariat avec le Cnam, la majeure Bio Informatique  se situe au carrefour de l’informatique, les statistiques (Big Data), de la biologie et de la médecine. Elle est accessible après la prépa intégrée Bio et numérique ou un premier double cursus en biologie et informatique.
+
+PRESENTATION : 
+La Bio-Informatique s’est beaucoup développée ces dernières années pour répondre au besoin de traitement des données issues des nouvelles biotechnologies (données multiomics). Avec la diversité de ces technologies et la massification des données à traiter, elle est devenue une discipline à part entière, au carrefour de l’informatique, des statistiques (Big Data), de la Biologie et de la médecine.
+Sur le plan industriel, le secteur va continuer de croître fortement pour répondre aux progrès de santé (médecine personnalisée au niveau diagnostic et thérapeutique) et va nécessiter l’arrivée de nouveaux experts qui comprennent les données, outils et enjeux actuels de la bio-informatique et qui sont capables de développer de nouveaux logiciels adaptés aux progrès technologiques en bio-médecine et en informatique.
+De grandes sociétés comme Google, Illumina, IQVIA ou IBM Watson se positionnent déjà sur ce secteur car il s’agit d’un enjeu majeur.
+
+EQUIPE : 
+Responsable de Majeure : Mano Joseph Mathew, Docteur en Bio-Informatique
+
+DEBOUCHES : 
+
+
+Appliquer les méthodes d’apprentissage automatique aux données médicales
+Implémenter les solutions de traitement, de stockage et d’analyse de données NGS
+Créer les visualisations de données pour communiquer les résultats d’analyses
+Comprendre différentes étapes des projets Bio- Informatique et la valeur apportée
+
+Exemples de métiers possibles :
+
+Bio-informaticien
+Biostatisticien
+Data Scientist / Computational Biologist
+Chef de projet Bio-Informatique
+Ingénieur R&D
+Ingénieur Bio-informatique
+Data-manager Clinique
+

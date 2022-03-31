@@ -1,0 +1,42 @@
+
+Majeure 
+                                                        Transports intelligents
+                        
+DESCRIPTION : La majeure Transports intelligents est dédiée à l’étude des équipements électroniques, électriques et informatiques intégrant les systèmes embarqués qui composent les systèmes de transports autonomes.
+
+PRESENTATION : 
+La majeure Transports intelligents est dédiée à l’étude des Systèmes embarqués (équipements électroniques, électriques et informatiques) composant les systèmes de transports autonomes (aéronefs, voitures autonomes, systèmes ferroviaires autonomes, drônes, etc) et aidant à leur pilotage. À l’heure où les industries automobile, aéronautique et spatiale font face au défi incontournable de la transition écologique, les ingénieurs « Transports Intelligents » ont vocation à préparer les prochaines ruptures technologiques.
+A cette fin, il est indispensable de maîtriser les systèmes temps réels à travers toutes les composantes : électronique, informatique, automatique, télécommunications, réseaux, sécurité, Big Data, calculateurs, etc. C’est pourquoi le programme de la majeure intègre des enseignements sur chacune de ces technologies : télécommunication, traitement du signal, sécurité…
+
+EQUIPE : 
+Responsable de la Majeure : Ali Chamas Al Ghouwayel, Ingénieur-Docteur en Télécommunications
+
+DEBOUCHES : 
+
+
+
+Compétences visées &
+Débouchés
+
+
+
+
+
+Concevoir et mettre en œuvre des systèmes embarqués tant au niveau hardware que software et en assurer la maintenabilité et leurs avancées
+Connaître les techniques de traitement du signal et les différents systèmes de télécommunications
+Maîtriser les systèmes temps réels à travers toutes les composantes : électronique, informatique, automatique, télécommunications, réseaux, sécurité, Big Data, calculateurs…
+Maitriser les techniques de Perception et Navigation des Véhicule Autonomes
+Évaluer en permanence les performances.
+
+Exemples de métiers possibles :
+
+Ingénieurs systèmes embarqués
+Ingénieur qualité, logiciel aéronautique et conduite autonome
+Architecte avionique
+Ingénieur sureté de fonctionnement
+Ingénieur Perception-Connectivité Véhicule Autonomes
+Ingénieur sécurité, chef de projet, architecte calculateur spécifique, développement de systèmes de sécurité, consultant systèmes embarqués
+Chef de projet dans les secteurs des transports intelligents et des télécommunications.
+
+
+

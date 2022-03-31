@@ -1,0 +1,38 @@
+
+Majeure 
+                                                        Imagerie et Réalité Virtuelle
+                        
+DESCRIPTION : La Majeure Imagerie et Réalité Virtuelle forme des ingénieurs capables de travailler sur des systèmes complexes basés sur l’imagerie numérique, que ce soit pour effectuer des traitements à partir d’images existantes, pour créer des scènes virtuelles, voire même associer réel et virtuel pour la réalité augmentée.
+
+PRESENTATION : 
+L’utilisation des univers virtuels : un domaine en plein développement. Les secteurs d’activité utilisant la simulation numérique et la réalité virtuelle sont de plus en plus nombreux :
+
+La simulation pour l’industrie et l’architecture
+La visualisation de données BIG DATA
+L’imagerie médicale et l’aide à la chirurgie réelle ou virtuelle
+Les jeux vidéo et simulateurs de tous types
+La personnalisation de produits pour l’industrie 4.0
+
+
+La majeure Imagerie et Réalité Virtuelle permet aux étudiants de s’approprier les techniques et de manipuler des outils professionnels utilisés dans le monde de la réalité virtuelle et de la réalité augmentée. Ils sont capables de concevoir et de mettre en œuvre des environnements immersifs répondant aux nouveaux besoins et usages.
+
+
+
+EQUIPE : 
+Responsable de la majeure : Nicolas Flasque, Ingénieur-Docteur en Informatique
+
+DEBOUCHES : 
+
+
+Maîtriser les bases mathématiques de la vision artificielle et de la 3D.
+Mettre en œuvre des outils de traitement et de synthèse d’images.
+Être opérationnel sur des outils et technologies pour la 3D.
+Connaître les applications et le marché de la réalité virtuelle et augmentée.
+
+Débouchés possibles :
+
+Ingénieur en 3D pour la simulation numérique
+Ingénieur PLM (Product Lifecycle Management)
+Ingénieur R&D en simulation et réalité virtuelle
+Ingénieur Jeux vidéo
+
