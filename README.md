@@ -22,17 +22,24 @@ Avant toute chose, il faut installer [Python](https://www.python.org/downloads/)
 
 Ensuite vous pourrez clone ce repo et écrire ces commandes dans votre invité de commande ou votre terminal.
 
-```
-$ python -m venv venv
-$ venv\Scripts\activate
-```
-
-Vous aurez aussi besoin d'installer ces dépendances.
+Vous aurez aussi besoin d'installer les dépendances.
 
 ```
 pip install -r requirements.txt
-pip install textblob
 ```
+Pour run le projet, il est faut il faut tous d'abord :
+
+Run en premier dans dossier  "web_scraping" > "web_scraper.py". Cela commencera à parser l'url de démarrage, dans ce cas c'est le site de l'Efrei Paris. Ici, il recherchera plus d'URL et en extraira le texte. Il crée un nouveau répertoire, appelé "intents.json" et enregistra toute la donnée dedans.
+
+Ensuite il est nécessaire de train le model, donc :
+ 
+ dans le dossier "Model_tenserflow"  run le fichier python "training.py".
+ 
+ Et enfin run "app.py".
+ 
+ 
+
+
 
 # Comment lancer l'application
 
