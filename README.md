@@ -52,7 +52,7 @@ Sur votre navigateur web, entrez cet URL : `http://127.0.0.1:5000/`. Vous devrie
 
 # Comment le chat bot fonctionne
 
-First we web scrap the efrei website to be able to have every paragraphs of the website. Then we can filter the files we got with the web scrapper and we filter it again and again and we create a dictionnary that will have the top 40 words. Then we create another file where it build knowledge about the related topic.
+Tout d'abord, nous scrapons le site web d'efrei pour avoir tous les paragraphes du site. Ensuite nous pouvons filtrer les fichiers que nous avons obtenus avec le web scrapper et nous les filtrons encore et encore et nous créons un dictionnaire qui aura les 40 premiers mots. Ensuite, nous créons un autre fichier dans lequel nous construisons des connaissances sur le sujet concerné.
 
 On utilise un web scrapper afin d'avoir accès a tout les paragraphes du site internet de l'EFREI. Ensuite, nous pouvons filtrer ce que l'on a eu grâce au web scrapper et nous le refiltrons encore. 
 
